@@ -14,7 +14,7 @@ test.use({
 });
 
 //Write a test
-test('Create DELETE API Request in Playwright', async ({ request }) => {
+test('Create DELETE API Request in Playwright', { tag: ['@PlaywrightWithJenkins'] }, async ({ request }) => {
 
     //Create a POST API request body dynamically by replacing the placeholders in the template with actual values
     //Reading JSON file
