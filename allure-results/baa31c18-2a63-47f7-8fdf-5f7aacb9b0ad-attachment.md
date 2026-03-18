@@ -1,0 +1,1574 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Guide" [ref=e9] [cursor=pointer]:
+          - generic [ref=e12]:
+            - img
+        - generic [ref=e13]:
+          - link "YouTube Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e19]:
+              - img
+          - generic [ref=e20]: CA
+        - button "Skip navigation" [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: Skip navigation
+      - generic [ref=e29]:
+        - search [ref=e30]:
+          - generic [ref=e31]:
+            - combobox "Search" [expanded] [ref=e34]
+            - button "Search" [ref=e35] [cursor=pointer]:
+              - generic [ref=e38]:
+                - img
+        - generic [ref=e40]:
+          - button "Search with your voice" [ref=e42] [cursor=pointer]
+          - tooltip "tooltip"
+      - generic [ref=e49]:
+        - button "Settings" [ref=e54] [cursor=pointer]
+        - link "Sign in" [ref=e58] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F%2540testerstalk&hl=en&ec=65620
+          - generic [ref=e61]: Sign in
+  - navigation [ref=e65]:
+    - generic [ref=e66]:
+      - link "Home" [ref=e68] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e70]: Home
+      - link "Shorts" [ref=e72] [cursor=pointer]:
+        - /url: /shorts/
+        - generic [ref=e74]: Shorts
+      - link "Subscriptions" [ref=e76] [cursor=pointer]:
+        - /url: /feed/subscriptions
+        - generic [ref=e78]: Subscriptions
+      - link "You" [ref=e80] [cursor=pointer]:
+        - /url: /feed/you
+        - generic [ref=e82]: You
+  - generic [ref=e83]:
+    - main [ref=e84]:
+      - generic [ref=e91]:
+        - generic [ref=e107]:
+          - heading "Testers Talk" [level=1] [ref=e109]
+          - generic [ref=e110]:
+            - generic [ref=e112]: "@testerstalk"
+            - generic [ref=e113]: •
+            - generic [ref=e114]:
+              - generic [ref=e115]: 28.8K subscribers
+              - generic [ref=e116]: •
+              - generic [ref=e117]: 557 videos
+          - generic [ref=e119] [cursor=pointer]:
+            - generic [ref=e120]: Hi Friends Welcome to Testers Talk channel, Myself Bakkappa N. I have been working as QA SDET Automation Test Lead over a almost decade. I like to share my knowledge & experience through this channel. Support this channel by Subscribing, Liking and sharing with friends and colleagues.
+            - button "Description. Hi Friends Welcome to Testers Talk channel, Myself Bakkappa ...tap for more." [ref=e121]:
+              - generic [ref=e122]: ...more
+          - generic [ref=e123]:
+            - link "linkedin.com/groups/10393547" [ref=e126] [cursor=pointer]:
+              - /url: https://www.youtube.com/redirect?event=channel_header&redir_token=QUFFLUhqbC1mTndldWNLRkMyWDdrdGs3X216QjZfZWpSZ3xBQ3Jtc0tuQjdOdjI4V3p3Qk1WOWpEbW9ZVTVHUUluWDdXUlpRcFpSQ1p6YTJDTDZMdnpBaEVsUm43QzVsTWc3aTctZzNtVlBoMTNBNjdMRFFCT1FaUzhCUjF4TXVMS1FJWmp1Q2dBQVlqdWRKVUlYN01XV0NVdw&q=https%3A%2F%2Fwww.linkedin.com%2Fgroups%2F10393547%2F
+            - button "and 3 more links" [ref=e129] [cursor=pointer]
+          - button "Subscribe" [ref=e133] [cursor=pointer]:
+            - generic [ref=e134]: Subscribe
+        - tablist [ref=e141]:
+          - tablist [ref=e145]:
+            - tab "Home" [selected] [ref=e146] [cursor=pointer]:
+              - generic [ref=e147]: Home
+            - tab "Videos" [ref=e148] [cursor=pointer]:
+              - generic [ref=e149]: Videos
+            - tab "Shorts" [ref=e150] [cursor=pointer]:
+              - generic [ref=e151]: Shorts
+            - tab "Live" [ref=e152] [cursor=pointer]:
+              - generic [ref=e153]: Live
+            - tab "Playlists" [ref=e154] [cursor=pointer]:
+              - generic [ref=e155]: Playlists
+            - tab "Posts" [ref=e156] [cursor=pointer]:
+              - generic [ref=e157]: Posts
+            - button "Search" [ref=e161] [cursor=pointer]:
+              - generic [ref=e164]:
+                - img
+      - generic [ref=e171]:
+        - generic [ref=e174]:
+          - generic "YouTube Video Player" [ref=e178]:
+            - link "#1 Playwright Automation Using TypeScript Full Course 2026 | Playwright TypeScript Beginner Tutorial" [ref=e183] [cursor=pointer]:
+              - /url: https://www.youtube.com/watch?v=788GvvcfwTY
+            - button "More" [ref=e185] [cursor=pointer]:
+              - generic [ref=e186]:
+                - img
+            - generic [ref=e187]:
+              - generic [ref=e188] [cursor=pointer]:
+                - slider "Seek slider" [ref=e189]
+                - generic:
+                  - generic:
+                    - generic:
+                      - slider "Click or scroll the panel for the precise seeking."
+              - generic [ref=e200]:
+                - generic [ref=e201]:
+                  - button "Pause (k)" [ref=e202] [cursor=pointer]:
+                    - img
+                  - generic [ref=e203]:
+                    - button "Unmute (m)" [ref=e205] [cursor=pointer]:
+                      - img
+                    - slider "Volume"
+                  - button "0 Minutes 0 Seconds of 8 Hours 55 Minutes 9 Seconds" [ref=e209] [cursor=pointer]: 0:00 / 8:55:09
+                - generic [ref=e211]:
+                  - button [ref=e212] [cursor=pointer]:
+                    - img
+                  - button "Settings" [ref=e213] [cursor=pointer]:
+                    - img
+          - generic [ref=e214]:
+            - generic [ref=e215]:
+              - heading "#1 Playwright Automation Using TypeScript Full Course 2026 | Playwright TypeScript Beginner Tutorial 8 hours, 55 minutes" [level=3] [ref=e216]:
+                - link "#1 Playwright Automation Using TypeScript Full Course 2026 | Playwright TypeScript Beginner Tutorial" [ref=e217] [cursor=pointer]:
+                  - /url: /watch?v=788GvvcfwTY
+              - generic [ref=e220]:
+                - generic [ref=e221]: 140,548 views
+                - generic [ref=e222]: •1 year ago
+            - generic [ref=e223]:
+              - generic [ref=e225]:
+                - text: "Playwright Automation Using TypeScript Full Course | Playwright TypeScript Beginner Tutorials: Playwright enables reliable end-to-end testing for modern web apps. Playwright is an open-source automation library for browser testing. Playwright provides the ability to automate browser tasks in Chromium, Firefox and WebKit with a single API 🔥 Playwright with TypeScript GitHub -"
+                - link "https://github.com/BakkappaN/Playwrig..." [ref=e226] [cursor=pointer]:
+                  - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbnNtTVNnRWRUUUtUakpOd0ktSmFOUUlIVVE1QXxBQ3Jtc0ttRy1zeGpXSTJwendJVkM1bGRNUVR3dzVsQmpxWDdKM2kwNTBmT1JFSi0yTHpjTjBBWEFubk1XdEF6bDhWVk81ME1GNnJETV9HX3lXM3F4VTlvMUJLa0RneVhZbmkyMWV0VTlaOFBJaWRseHMxVlZVcw&q=https%3A%2F%2Fgithub.com%2FBakkappaN%2FPlaywrightTypeScriptTutorialFullCourse
+                - text: 🔥 Playwright Documentation -
+                - link "https://playwright.dev/docs/intro" [ref=e227] [cursor=pointer]:
+                  - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa05Qd1JkQklmb3F1eDVsOVh6SnpMSmpTcmVjd3xBQ3Jtc0tsQWE1Y2hNNVFHdHdBa1FFVG5wS1ltWkRBZDJCc3lnRDNxdFNMR3VKSzhfZ2FBUWJKTktGd3Y5SXpsVG4zT3l1OXBHZEZXSm9RXzZpNUwzM1gwRnFhTHZTRnpOalc3LThENUdBcmJ4OWxOYjBtOG9wcw&q=https%3A%2F%2Fplaywright.dev%2Fdocs%2Fintro
+                - text: "** FREE YouTube Full Courses ** ========================== 🔊 Playwright with JavaScript Tutorial Full Course -"
+                - link "https://bit.ly/playwright-tutorial-au..." [ref=e228] [cursor=pointer]:
+                  - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbWxYNkxLQlRTTVdBQTI2QkxaLWY4d1hnY1pBUXxBQ3Jtc0tsNDh3aWV0WWd2LV80TUZXMzJ6MWExLTVPTmRBYkJ1UnoxZ0t4R0FhbHIzNS00cDZnYzlkenM3aFBNWWd5Z3hYMzBhTWtacFhVeTZDamxtTElmQTFCOVRJbk5XbXVhZXBMcURXLTA1eUhnMFdhWU9WNA&q=https%3A%2F%2Fbit.ly%2Fplaywright-tutorial-automation-testing
+                - text: 🔊 Playwright API Testing Tutorial -
+                - link "https://bit.ly/playwright-api-testing..." [ref=e229] [cursor=pointer]:
+                  - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa2huZjMtQkpGX0dSaVpwczZPYU5lSlJEQW1qQXxBQ3Jtc0ttY2J1b21xV1RaSzlkaW9YX3VIUTNyNjhFaVBPRl9jbHlYNmZyVkNBbXdra2t0VmpLZ1ByRFdqR3ZzUW5hOFY2YWhZS2pSZF9jS09ZVVk1alo5bmFNRTFNaGhMeDEzZkJYbzJxM3ZBYXZMOEtubWRPVQ&q=https%3A%2F%2Fbit.ly%2Fplaywright-api-testing-tutorial
+                - text: 🔊 Playwright with Azure DevOps -
+                - link "https://bit.ly/playwright-azure-devop..." [ref=e230] [cursor=pointer]:
+                  - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbTlPRmxFZ0hTSk5IWkVuaUVWcldYeVU4MTVjd3xBQ3Jtc0tuY1lDQ3J5REZKQTJUcHdqb0VfRDJINkszUThVb25OTzI0TXpwenpYaEtITzRnaXBPQUJRY1paR0tnMHhKa21lQkJrMnpwVE5mTGZrNDlLUU5IRTl5aU83YkxzODJUaHhDbGtpZmdVbVlZd1hFN0lXUQ&q=https%3A%2F%2Fbit.ly%2Fplaywright-azure-devops-tutorial
+                - text: 🔊 Playwright tutorial for beginners -
+                - link "https://bit.ly/Playwright-Tutorial-Fo..." [ref=e231] [cursor=pointer]:
+                  - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbEZFeWhfcVdZNXNtajA1TEdPUF8tNnVfZndyZ3xBQ3Jtc0tuRzhBc0hxcDlNNUg1bzhkN2xyU2JuTWxJUTlEY0h4ZWVoY05KUFJTa05FVjJJU0pleWJydE5hdTBfVzhsWS1TcnQ4enVDUmN0dWU5elQ5Nm83NXIteDA4blVIRlEwUG1BSkJNeXk1dnhDTDc3d01Bcw&q=https%3A%2F%2Fbit.ly%2FPlaywright-Tutorial-For-Beginners
+                - text: 🔊 Cypress Tutorial Full Course -
+                - link "https://bit.ly/cypress-automation-tes..." [ref=e232] [cursor=pointer]:
+                  - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbjZMNFBjS3ZBazRacnNkVFF6Rnc5bGF6QS1kZ3xBQ3Jtc0ttTjRYLW95d3Rjd181N3lfaGN3Q1ltT0FHajNTYkRudnppWURycTNuSjBKVmdBZXdBMGtTNVotWWVjZUJ2NDJvLTJ1TEdFQWJvNVBYYml1SWQwZ0tvd255VFduZnVfa1hjQjY2QS1YLWlTMW9LVjk5OA&q=https%3A%2F%2Fbit.ly%2Fcypress-automation-testing-tutorial
+                - text: 🔊 JavaScript Tutorial Full Course -
+                - link "https://bit.ly/javascript-tutorial-fo..." [ref=e233] [cursor=pointer]:
+                  - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa19aNTZqUDVwLVl6NkNmM2RQaWVZd3pyaEtJQXxBQ3Jtc0ttYVlDWEpOX25NVGNsTG9fdHh0VXhFem9ITHozOWg0YWtVUUg5LVpLMFBNTlpwbkV4emF3YzkyLVhkUXFGUGFLY1M1QlE2dE41a3BnaERMcS12Y0FkdENyNVQtRk9pMXpEZ1ZCcmdGcFFiYjQ0R05ZZw&q=https%3A%2F%2Fbit.ly%2Fjavascript-tutorial-for-beginners
+                - text: 🔊 API Testing Tutorial Full Course -
+                - link "https://bit.ly/api-testing-tutorial-f..." [ref=e234] [cursor=pointer]:
+                  - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbXczM1JJR09MdDVoTHRVeVE1Z0gwTWFKRFBkZ3xBQ3Jtc0ttUnBiS3Q3VVVKdWFLX01ES1E5SWNnbk9rTDVYQVctTlphdjB5N2tPcjVsLU1TdHl5QlBnMW9telV6eXdwNVQ2bUxOYzROSXZvQVFvZFdnTHpNeWZhX2d6eGxkSDgwZGV1dE9sdVY4VkFaTDdEa2J2WQ&q=https%3A%2F%2Fbit.ly%2Fapi-testing-tutorial-full-course
+                - text: 🔊 Rest Assured API Testing Tutorial Full Course -
+                - link "https://bit.ly/rest-assured-api-testi..." [ref=e235] [cursor=pointer]:
+                  - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbFJxdmpRbWtHNms3czVMX21tQXBLNEJ6bDBId3xBQ3Jtc0ttWXQyZjN4WWhfOFZ1R0RxXy04RHpnbk16WEVoTXpKUnh1QVYyQy1GallTc1M5M2xNS0FrMFpHS2x6c1V3MjYtbF9HN3E5YXFrMWxXQU4xRmdCY0tGNm5JNk9wNVdxT015NWNIYUI2d1MyT3VTTVNGdw&q=https%3A%2F%2Fbit.ly%2Frest-assured-api-testing-tutorial
+                - text: 🔊 Postman Tutorial Full Course -
+                - link "https://bit.ly/api-testing-using-post..." [ref=e236] [cursor=pointer]:
+                  - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqazhnMWhwVUJzSlN3Q1lPdUFudXp3VENYYkNJd3xBQ3Jtc0trRjUxT0hfQU5QOW5mTVNsZG1ZYnF5VEhOUm04YmRlZ0NHRTZpU2toVEdyTVh6T25JWmFSRDg2cXl2SzBoeFBQOUpqMF9JTE5vYlVMZVhsY2lDRHdPbVZGN1hOS2VXZkQ4V3I4aFVWem1BOUg0aXluNA&q=https%3A%2F%2Fbit.ly%2Fapi-testing-using-postman-tutorial
+                - text: 🔊 Specflow Selenium C# Tutorial -
+                - link "https://bit.ly/specflow-selenium-csha..." [ref=e237] [cursor=pointer]:
+                  - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqazN0dkE4RHZDMXhZWURiWE5wNFpOR19pNVNtUXxBQ3Jtc0ttaUI3eVQxU000bUVQWFV3NGhoUm9tMDBuUVladXZQQms2cDh2b0FKbklOLUtpdERXZ0s0cERNbXVEWVBOcklrMHFnV2FFaC02LUxhdmJrcUtLM3NZXzZuMVpsY3JTZU9VVE1SZjFyNl91VlVZREFhaw&q=https%3A%2F%2Fbit.ly%2Fspecflow-selenium-csharp-tutorial
+                - text: 🔊 Selenium C# .NET NUnit Tutorial -
+                - link "https://youtu.be/utfaE9Nv1FY" [ref=e238] [cursor=pointer]:
+                  - /url: /watch?v=utfaE9Nv1FY
+                - text: "Chapters 00:00 Playwright with TypeScript Tutorial Full Course 00:40 Playwright TypeScript GitHub Repository 01:17 Playwright with TypeScript Chapter01 02:09 What is Playwright? 10:32 Playwright Architecture 13:00 Playwright vs Cypress vs Selenium WebDriver 18:06 Softwares required playwright testing 19:35 Download & Install NodeJS 22:04 Download & Install VS Code 23:47 Setup Playwright TypeScript using VS Code 43:21 Run, Debug & Filter Playwright Tests 47:20 Install Playwright TypeScript using Command/Terminal 55:17 Record Playwright Test using VS Code 01:02:13 Run Playwright tests on Chrome, Edge & Firefox browsers 01:07:34 Generate readable playwright html test report 01:14:49 Commonly used playwright terminologies 01:20:49 Write first playwright typescript test & pick locator 01:41:31 Record at Cursor in playwright 01:53:20 Execute specific spec in playwright typescript 01:57:13 Run playwright typescript test on headless mode 02:00:40 Run playwright typescript test on headed mode 02:03:13 Run playwright test on chrome, edge, firefox using cmd 02:09:04 Record playwright test using Codegen 02:16:20 Playwright with TypeScript Chapter02 02:16:52 Capture screenshots in playwright typescript 02:32:30 Attach screenshot into playwright test report 02:39:51 Locators in playwright typescript 03:15:15 Hooks in playwright typescript 03:30:07 Selecting & validating dropdown options in playwright typescript 03:43:52 Handling iframe playwright & drag and drop in playwright 03:56:25 Mouse actions in playwright typescript 04:10:25 Keyboard actions in playwright typescript 04:23:00 Selecting date field value in playwright typescript 04:42:00 playwright typescript assertions - hard & soft 05:11:45 Watch mode in playwright 05:15:41 Playwright UI Mode 05:25:20 Trace Viewer in playwright typescript 05:37:02 Playwright with TypeScript Chapter03 05:37:39 Playwright annotations - skip & only 05:44:05 Group & execute tests in playwright typescript 05:50:40 Tags in Playwright TypeScript 05:58:03 Repeat playwright test execution 06:01:24 Automatically retry/rerun failed test in playwright 06:07:42 Parameterize tests in playwright typescript 06:16:00 Visual Testing or Visual comparison in playwright typescript 06:34:01 Timeouts in playwright 06:54:05 Playwright with TypeScript Chapter04 06:54:45 tsconfig.json file in playwright typescript 07:01:30 Browser context in playwright 07:11:54 Execute only last failed tests in playwright 07:19:49 Handling alerts/popups in playwright 07:40:41 Playwright test reports - html report, json report, junit report etc. 08:00:26 Recording video of test execution in playwright 08:03:04 Parallel/parallelism test execution in playwright typescript 08:09:56 Integrating allure report with playwright 08:19:50 textContent(), innerText(), getAttribute() in playwright 08:31:09 Iterating matching elements in playwright 08:46:46 Handling checkbox & radion buttons in playwright Tags: playwright tutorial,playwright automation tutorial,playwright testing tutorial,microsoft playwright tutorial,playwright test automation,introduction to playwright,playwright automation javascript,playwright with javascript,playwright typescript tutorial, playwright typescript automation tutorial Hashtags:"
+                - link "#Playwright" [ref=e239] [cursor=pointer]:
+                  - /url: /hashtag/playwright
+                - link "#TypeScript" [ref=e240] [cursor=pointer]:
+                  - /url: /hashtag/typescript
+                - link "#JavaScript" [ref=e241] [cursor=pointer]:
+                  - /url: /hashtag/javascript
+                - link "#PlaywrightTypeScript" [ref=e242] [cursor=pointer]:
+                  - /url: /hashtag/playwrighttypescript
+                - link "#PlaywrightJavaScript" [ref=e243] [cursor=pointer]:
+                  - /url: /hashtag/playwrightjavascript
+                - link "#PlaywrightTesting" [ref=e244] [cursor=pointer]:
+                  - /url: /hashtag/playwrighttesting
+                - link "#PlaywrightTutorial" [ref=e245] [cursor=pointer]:
+                  - /url: /hashtag/playwrighttutorial
+                - link "#PlaywrightAutomation" [ref=e246] [cursor=pointer]:
+                  - /url: /hashtag/playwrightautomation
+                - link "#AutomationTesting" [ref=e247] [cursor=pointer]:
+                  - /url: /hashtag/automationtesting
+                - link "#TestAutomation" [ref=e248] [cursor=pointer]:
+                  - /url: /hashtag/testautomation
+                - link "#Selenium" [ref=e249] [cursor=pointer]:
+                  - /url: /hashtag/selenium
+                - link "#Cypress" [ref=e250] [cursor=pointer]:
+                  - /url: /hashtag/cypress
+                - link "#QA" [ref=e251] [cursor=pointer]:
+                  - /url: /hashtag/qa
+                - link "#SDET" [ref=e252] [cursor=pointer]:
+                  - /url: /hashtag/sdet
+                - link "#SoftwareTesting" [ref=e253] [cursor=pointer]:
+                  - /url: /hashtag/softwaretesting
+              - button "Read more" [ref=e254] [cursor=pointer]:
+                - link "Read more" [ref=e256]:
+                  - /url: /watch?v=788GvvcfwTY
+        - generic [ref=e260]:
+          - generic [ref=e262]:
+            - heading "Full Course Tutorials" [level=2] [ref=e263]:
+              - link "Full Course Tutorials" [ref=e266] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e267]: Full Course Tutorials
+            - button "View all" [ref=e273] [cursor=pointer]:
+              - generic [ref=e274]: View all
+          - generic [ref=e279]:
+            - generic [ref=e282]:
+              - generic [ref=e284] [cursor=pointer]:
+                - link [ref=e285]:
+                  - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THEXmQxNvKmdDxAVloGTHXMr
+                  - generic [ref=e297]: 111 videos
+                - generic [ref=e300]:
+                  - heading "Playwright TypeScript by Testers Talk ✅" [level=3] [ref=e301]:
+                    - link "Playwright TypeScript by Testers Talk ✅" [ref=e302]:
+                      - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THEXmQxNvKmdDxAVloGTHXMr
+                  - generic [ref=e304]:
+                    - generic [ref=e305]:
+                      - link "Testers Talk" [ref=e308]:
+                        - /url: /@testerstalk
+                      - generic [ref=e309]: •
+                      - link "Playlist" [ref=e312]:
+                        - /url: /@testerstalk
+                    - link "View full playlist" [ref=e316]:
+                      - /url: /playlist?list=PLUeDIlio4THEXmQxNvKmdDxAVloGTHXMr
+              - generic [ref=e318] [cursor=pointer]:
+                - link [ref=e319]:
+                  - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THFSOUcVo_Cfam8I_IO483mV
+                  - generic [ref=e331]: 82 videos
+                - generic [ref=e334]:
+                  - heading "Playwright JavaScript by Testers Talk☑️" [level=3] [ref=e335]:
+                    - link "Playwright JavaScript by Testers Talk☑️" [ref=e336]:
+                      - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THFSOUcVo_Cfam8I_IO483mV
+                  - generic [ref=e338]:
+                    - generic [ref=e339]:
+                      - link "Testers Talk" [ref=e342]:
+                        - /url: /@testerstalk
+                      - generic [ref=e343]: •
+                      - link "Playlist" [ref=e346]:
+                        - /url: /@testerstalk
+                    - link "View full playlist" [ref=e350]:
+                      - /url: /playlist?list=PLUeDIlio4THFSOUcVo_Cfam8I_IO483mV
+              - generic [ref=e352] [cursor=pointer]:
+                - link [ref=e353]:
+                  - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+                  - generic [ref=e365]: 24 videos
+                - generic [ref=e368]:
+                  - heading "Playwright API Testing by Testers Talk☑️" [level=3] [ref=e369]:
+                    - link "Playwright API Testing by Testers Talk☑️" [ref=e370]:
+                      - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+                  - generic [ref=e372]:
+                    - generic [ref=e373]:
+                      - link "Testers Talk" [ref=e376]:
+                        - /url: /@testerstalk
+                      - generic [ref=e377]: •
+                      - link "Playlist" [ref=e380]:
+                        - /url: /@testerstalk
+                    - link "View full playlist" [ref=e384]:
+                      - /url: /playlist?list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+              - generic [ref=e386] [cursor=pointer]:
+                - link [ref=e387]:
+                  - /url: /watch?v=oJV5whmzfZI&list=PLUeDIlio4THEbdE2jWyBBxkWqjk4JmHHq&pp=0gcJCbgEOCosWNin
+                  - generic [ref=e399]: 41 videos
+                - generic [ref=e402]:
+                  - heading "Cypress by Testers Talk☑️" [level=3] [ref=e403]:
+                    - link "Cypress by Testers Talk☑️" [ref=e404]:
+                      - /url: /watch?v=oJV5whmzfZI&list=PLUeDIlio4THEbdE2jWyBBxkWqjk4JmHHq&pp=0gcJCbgEOCosWNin
+                  - generic [ref=e406]:
+                    - generic [ref=e407]:
+                      - link "Testers Talk" [ref=e410]:
+                        - /url: /@testerstalk
+                      - generic [ref=e411]: •
+                      - link "Playlist" [ref=e414]:
+                        - /url: /@testerstalk
+                    - link "View full playlist" [ref=e418]:
+                      - /url: /playlist?list=PLUeDIlio4THEbdE2jWyBBxkWqjk4JmHHq
+              - generic [ref=e420] [cursor=pointer]:
+                - link [ref=e421]:
+                  - /url: /watch?v=ACUMZ3OkExQ&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB
+                  - generic [ref=e433]: 38 videos
+                - generic [ref=e436]:
+                  - heading "JavaScript by Testers Talk☑️" [level=3] [ref=e437]:
+                    - link "JavaScript by Testers Talk☑️" [ref=e438]:
+                      - /url: /watch?v=ACUMZ3OkExQ&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB
+                  - generic [ref=e440]:
+                    - generic [ref=e441]:
+                      - link "Testers Talk" [ref=e444]:
+                        - /url: /@testerstalk
+                      - generic [ref=e445]: •
+                      - link "Playlist" [ref=e448]:
+                        - /url: /@testerstalk
+                    - link "View full playlist" [ref=e452]:
+                      - /url: /playlist?list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB
+              - generic [ref=e454] [cursor=pointer]:
+                - link [ref=e455]:
+                  - /url: /watch?v=QKBa8lt5Wfo&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5
+                  - generic [ref=e467]: 36 videos
+                - generic [ref=e470]:
+                  - heading "API Testing by Testers Talk☑️" [level=3] [ref=e471]:
+                    - link "API Testing by Testers Talk☑️" [ref=e472]:
+                      - /url: /watch?v=QKBa8lt5Wfo&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5
+                  - generic [ref=e474]:
+                    - generic [ref=e475]:
+                      - link "Testers Talk" [ref=e478]:
+                        - /url: /@testerstalk
+                      - generic [ref=e479]: •
+                      - link "Playlist" [ref=e482]:
+                        - /url: /@testerstalk
+                    - link "View full playlist" [ref=e486]:
+                      - /url: /playlist?list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5
+            - button "Next" [ref=e489] [cursor=pointer]
+        - generic [ref=e498]:
+          - heading "Videos" [level=2] [ref=e501]:
+            - link "Videos" [ref=e504] [cursor=pointer]:
+              - /url: /@testerstalk/videos?view=0&sort=dd&shelf_id=3
+              - generic [ref=e505]: Videos
+          - generic [ref=e507]:
+            - generic [ref=e510]:
+              - generic [ref=e512]:
+                - link [ref=e514] [cursor=pointer]:
+                  - /url: /watch?v=VU36WcPI0kc
+                - generic [ref=e516] [cursor=pointer]:
+                  - generic [ref=e518]:
+                    - heading "Python Full Course 2026 | Python Tutorial for Beginners | Learn Python from Scratch 4 hours, 39 minutes" [level=3] [ref=e519]:
+                      - link "Python Full Course 2026 | Python Tutorial for Beginners | Learn Python from Scratch 4 hours, 39 minutes" [ref=e520]:
+                        - /url: /watch?v=VU36WcPI0kc
+                        - text: Python Full Course 2026 | Python Tutorial for Beginners | Learn Python from Scratch
+                    - generic [ref=e523]:
+                      - generic [ref=e524]: 404 views
+                      - generic [ref=e525]: •4 days ago
+                  - button "Action menu" [ref=e528]
+              - generic [ref=e531]:
+                - link [ref=e533] [cursor=pointer]:
+                  - /url: /watch?v=d4oPAKS7rOQ
+                - generic [ref=e537] [cursor=pointer]:
+                  - 'heading "#6 Playwright File Upload & Download: Excel, PDF, XML & Word Validation Guide 1 hour, 20 minutes" [level=3] [ref=e538]':
+                    - 'link "#6 Playwright File Upload & Download: Excel, PDF, XML & Word Validation Guide 1 hour, 20 minutes" [ref=e539]':
+                      - /url: /watch?v=d4oPAKS7rOQ
+                      - text: "#6 Playwright File Upload & Download: Excel, PDF, XML & Word Validation Guide"
+                  - generic [ref=e542]:
+                    - generic [ref=e543]: 522 views
+                    - generic [ref=e544]: •3 weeks ago
+              - generic [ref=e546]:
+                - link [ref=e548] [cursor=pointer]:
+                  - /url: /watch?v=gI3L2AXndFE
+                - generic [ref=e552] [cursor=pointer]:
+                  - heading "#105 How to Run Playwright Automation Tests Using GitHub Actions | Manual Trigger Github Actions 5 minutes, 43 seconds" [level=3] [ref=e553]:
+                    - link "#105 How to Run Playwright Automation Tests Using GitHub Actions | Manual Trigger Github Actions 5 minutes, 43 seconds" [ref=e554]:
+                      - /url: /watch?v=gI3L2AXndFE
+                      - text: "#105 How to Run Playwright Automation Tests Using GitHub Actions | Manual Trigger Github Actions"
+                  - generic [ref=e557]:
+                    - generic [ref=e558]: 320 views
+                    - generic [ref=e559]: •2 months ago
+              - generic [ref=e561]:
+                - link [ref=e563] [cursor=pointer]:
+                  - /url: /watch?v=eU97jYluRPA
+                - generic [ref=e567] [cursor=pointer]:
+                  - heading "#104 How to Run Playwright Automation Tests Using GitHub Actions CI/CD | Auto Trigger GitHub Actions 4 minutes, 33 seconds" [level=3] [ref=e568]:
+                    - link "#104 How to Run Playwright Automation Tests Using GitHub Actions CI/CD | Auto Trigger GitHub Actions 4 minutes, 33 seconds" [ref=e569]:
+                      - /url: /watch?v=eU97jYluRPA
+                      - text: "#104 How to Run Playwright Automation Tests Using GitHub Actions CI/CD | Auto Trigger GitHub Actions"
+                  - generic [ref=e572]:
+                    - generic [ref=e573]: 402 views
+                    - generic [ref=e574]: •3 months ago
+              - generic [ref=e576]:
+                - link [ref=e578] [cursor=pointer]:
+                  - /url: /watch?v=mAP7yRviP0k
+                - generic [ref=e582] [cursor=pointer]:
+                  - heading "#103 How to Create .yml(YAML) File For Github Actions CI/CD | Playwright with GitHub Actions 4 minutes, 13 seconds" [level=3] [ref=e583]:
+                    - link "#103 How to Create .yml(YAML) File For Github Actions CI/CD | Playwright with GitHub Actions 4 minutes, 13 seconds" [ref=e584]:
+                      - /url: /watch?v=mAP7yRviP0k
+                      - text: "#103 How to Create .yml(YAML) File For Github Actions CI/CD | Playwright with GitHub Actions"
+                  - generic [ref=e587]:
+                    - generic [ref=e588]: 359 views
+                    - generic [ref=e589]: •3 months ago
+              - generic [ref=e591]:
+                - link [ref=e593] [cursor=pointer]:
+                  - /url: /watch?v=aT_1uulU2dE&pp=0gcJCcMKAYcqIYzv
+                - generic [ref=e597] [cursor=pointer]:
+                  - heading "#102 How to Automatically Update Test Case Status in Test Plan in Playwright | Azure DevOps Pipeline 15 minutes" [level=3] [ref=e598]:
+                    - link "#102 How to Automatically Update Test Case Status in Test Plan in Playwright | Azure DevOps Pipeline 15 minutes" [ref=e599]:
+                      - /url: /watch?v=aT_1uulU2dE&pp=0gcJCcMKAYcqIYzv
+                      - text: "#102 How to Automatically Update Test Case Status in Test Plan in Playwright | Azure DevOps Pipeline"
+                  - generic [ref=e602]:
+                    - generic [ref=e603]: 605 views
+                    - generic [ref=e604]: •3 months ago
+            - button "Next" [ref=e607] [cursor=pointer]
+        - generic [ref=e616]:
+          - generic [ref=e617]:
+            - heading "API Testing by Testers Talk☑️ Play all" [level=2] [ref=e619]:
+              - link "API Testing by Testers Talk☑️" [ref=e622] [cursor=pointer]:
+                - /url: /playlist?list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5
+                - generic [ref=e623]: API Testing by Testers Talk☑️
+              - link "Play all" [ref=e627] [cursor=pointer]:
+                - /url: /watch?v=QKBa8lt5Wfo&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5
+                - generic [ref=e630]: Play all
+            - generic [ref=e634]: API Testing Postman Tutorial | API Testing Tutorial for beginners
+          - generic [ref=e636]:
+            - generic [ref=e639]:
+              - generic [ref=e641]:
+                - link [ref=e643] [cursor=pointer]:
+                  - /url: /watch?v=QKBa8lt5Wfo
+                - generic [ref=e647] [cursor=pointer]:
+                  - heading "API Testing Postman Tutorial Full Course 2024 2 hours, 43 minutes" [level=3] [ref=e648]:
+                    - link "API Testing Postman Tutorial Full Course 2024 2 hours, 43 minutes" [ref=e649]:
+                      - /url: /watch?v=QKBa8lt5Wfo
+                      - text: API Testing Postman Tutorial Full Course 2024
+                  - generic [ref=e651]:
+                    - generic "Testers Talk" [ref=e656]:
+                      - link "Testers Talk" [ref=e657]:
+                        - /url: /@testerstalk
+                    - generic [ref=e658]:
+                      - generic [ref=e659]: 158K views
+                      - generic [ref=e660]: •3 years ago
+              - generic [ref=e662]:
+                - link [ref=e664] [cursor=pointer]:
+                  - /url: /watch?v=o9KJhGHl49M
+                - generic [ref=e668] [cursor=pointer]:
+                  - heading "REST Assured API Testing Tutorial Crash Course 2024 4 hours, 6 minutes" [level=3] [ref=e669]:
+                    - link "REST Assured API Testing Tutorial Crash Course 2024 4 hours, 6 minutes" [ref=e670]:
+                      - /url: /watch?v=o9KJhGHl49M
+                      - text: REST Assured API Testing Tutorial Crash Course 2024
+                  - generic [ref=e672]:
+                    - generic "Testers Talk" [ref=e677]:
+                      - link "Testers Talk" [ref=e678]:
+                        - /url: /@testerstalk
+                    - generic [ref=e679]:
+                      - generic [ref=e680]: 54K views
+                      - generic [ref=e681]: •2 years ago
+              - generic [ref=e683]:
+                - link [ref=e685] [cursor=pointer]:
+                  - /url: /watch?v=kay86__5eTg
+                - generic [ref=e689] [cursor=pointer]:
+                  - heading "Advanced REST Assured API Automation Framework Full Course 2024 3 hours, 15 minutes" [level=3] [ref=e690]:
+                    - link "Advanced REST Assured API Automation Framework Full Course 2024 3 hours, 15 minutes" [ref=e691]:
+                      - /url: /watch?v=kay86__5eTg
+                      - text: Advanced REST Assured API Automation Framework Full Course 2024
+                  - generic [ref=e693]:
+                    - generic "Testers Talk" [ref=e698]:
+                      - link "Testers Talk" [ref=e699]:
+                        - /url: /@testerstalk
+                    - generic [ref=e700]:
+                      - generic [ref=e701]: 24K views
+                      - generic [ref=e702]: •2 years ago
+              - generic [ref=e704]:
+                - link [ref=e706] [cursor=pointer]:
+                  - /url: /watch?v=Yi2J-AJiFMs
+                - generic [ref=e710] [cursor=pointer]:
+                  - heading "Postman API Testing Tutorial Chapter-01 | Postman API Testing Tutorial for Beginners 34 minutes" [level=3] [ref=e711]:
+                    - link "Postman API Testing Tutorial Chapter-01 | Postman API Testing Tutorial for Beginners 34 minutes" [ref=e712]:
+                      - /url: /watch?v=Yi2J-AJiFMs
+                      - text: Postman API Testing Tutorial Chapter-01 | Postman API Testing Tutorial for Beginners
+                  - generic [ref=e714]:
+                    - generic "Testers Talk" [ref=e719]:
+                      - link "Testers Talk" [ref=e720]:
+                        - /url: /@testerstalk
+                    - generic [ref=e721]:
+                      - generic [ref=e722]: 16K views
+                      - generic [ref=e723]: •3 years ago
+              - generic [ref=e725]:
+                - link [ref=e727] [cursor=pointer]:
+                  - /url: /watch?v=IhlZKYw55kM
+                - generic [ref=e731] [cursor=pointer]:
+                  - heading "Postman API Testing Tutorial Chapter-02 | Postman API Testing Tutorial for Beginners 39 minutes" [level=3] [ref=e732]:
+                    - link "Postman API Testing Tutorial Chapter-02 | Postman API Testing Tutorial for Beginners 39 minutes" [ref=e733]:
+                      - /url: /watch?v=IhlZKYw55kM
+                      - text: Postman API Testing Tutorial Chapter-02 | Postman API Testing Tutorial for Beginners
+                  - generic [ref=e735]:
+                    - generic "Testers Talk" [ref=e740]:
+                      - link "Testers Talk" [ref=e741]:
+                        - /url: /@testerstalk
+                    - generic [ref=e742]:
+                      - generic [ref=e743]: 8.3K views
+                      - generic [ref=e744]: •3 years ago
+              - generic [ref=e746]:
+                - link [ref=e748] [cursor=pointer]:
+                  - /url: /watch?v=eFjZjTk45fs
+                - generic [ref=e752] [cursor=pointer]:
+                  - heading "Postman API Testing Tutorial Chapter-03 | Postman API Testing Tutorial for Beginners 20 minutes" [level=3] [ref=e753]:
+                    - link "Postman API Testing Tutorial Chapter-03 | Postman API Testing Tutorial for Beginners 20 minutes" [ref=e754]:
+                      - /url: /watch?v=eFjZjTk45fs
+                      - text: Postman API Testing Tutorial Chapter-03 | Postman API Testing Tutorial for Beginners
+                  - generic [ref=e756]:
+                    - generic "Testers Talk" [ref=e761]:
+                      - link "Testers Talk" [ref=e762]:
+                        - /url: /@testerstalk
+                    - generic [ref=e763]:
+                      - generic [ref=e764]: 3.9K views
+                      - generic [ref=e765]: •3 years ago
+            - button "Next" [ref=e768] [cursor=pointer]
+        - generic [ref=e777]:
+          - generic [ref=e778]:
+            - heading "Rest Assured API Testing by Testers Talk Play all" [level=2] [ref=e780]:
+              - link "Rest Assured API Testing by Testers Talk" [ref=e783] [cursor=pointer]:
+                - /url: /playlist?list=PLUeDIlio4THG6Cq08lHiG0hdyftundzrj
+                - generic [ref=e784]: Rest Assured API Testing by Testers Talk
+              - link "Play all" [ref=e788] [cursor=pointer]:
+                - /url: /watch?v=-HJjbich0dQ&list=PLUeDIlio4THG6Cq08lHiG0hdyftundzrj
+                - generic [ref=e791]: Play all
+            - generic [ref=e795]: Rest Assured Tutorial, Rest Assured API Automation Testing, Rest Assured Beginners Tutorials, API Automation Testing using Rest Assured, API Testing using Rest Assured, Rest Assured API Testing, Rest Assured Crash Course, Rest Assured API Testing, Completed Rest Assured Tutorials, Rest Assured 2023, Rest Assured for beginners, API Testing with REST Assured and Cucumber, Rest Assured BDD Tutorials
+          - generic [ref=e797]:
+            - generic [ref=e800]:
+              - generic [ref=e802]:
+                - link [ref=e804] [cursor=pointer]:
+                  - /url: /watch?v=-HJjbich0dQ
+                - generic [ref=e808] [cursor=pointer]:
+                  - heading "REST Assured API Testing Full Course Overview 4 minutes, 13 seconds" [level=3] [ref=e809]:
+                    - link "REST Assured API Testing Full Course Overview 4 minutes, 13 seconds" [ref=e810]:
+                      - /url: /watch?v=-HJjbich0dQ
+                      - text: REST Assured API Testing Full Course Overview
+                  - generic [ref=e812]:
+                    - generic "Testers Talk" [ref=e817]:
+                      - link "Testers Talk" [ref=e818]:
+                        - /url: /@testerstalk
+                    - generic [ref=e819]:
+                      - generic [ref=e820]: 8.6K views
+                      - generic [ref=e821]: •2 years ago
+              - generic [ref=e823]:
+                - link [ref=e825] [cursor=pointer]:
+                  - /url: /watch?v=o9KJhGHl49M
+                - generic [ref=e829] [cursor=pointer]:
+                  - heading "REST Assured API Testing Tutorial Crash Course 2024 4 hours, 6 minutes" [level=3] [ref=e830]:
+                    - link "REST Assured API Testing Tutorial Crash Course 2024 4 hours, 6 minutes" [ref=e831]:
+                      - /url: /watch?v=o9KJhGHl49M
+                      - text: REST Assured API Testing Tutorial Crash Course 2024
+                  - generic [ref=e833]:
+                    - generic "Testers Talk" [ref=e838]:
+                      - link "Testers Talk" [ref=e839]:
+                        - /url: /@testerstalk
+                    - generic [ref=e840]:
+                      - generic [ref=e841]: 54K views
+                      - generic [ref=e842]: •2 years ago
+              - generic [ref=e844]:
+                - link [ref=e846] [cursor=pointer]:
+                  - /url: /watch?v=kay86__5eTg
+                - generic [ref=e850] [cursor=pointer]:
+                  - heading "Advanced REST Assured API Automation Framework Full Course 2024 3 hours, 15 minutes" [level=3] [ref=e851]:
+                    - link "Advanced REST Assured API Automation Framework Full Course 2024 3 hours, 15 minutes" [ref=e852]:
+                      - /url: /watch?v=kay86__5eTg
+                      - text: Advanced REST Assured API Automation Framework Full Course 2024
+                  - generic [ref=e854]:
+                    - generic "Testers Talk" [ref=e859]:
+                      - link "Testers Talk" [ref=e860]:
+                        - /url: /@testerstalk
+                    - generic [ref=e861]:
+                      - generic [ref=e862]: 24K views
+                      - generic [ref=e863]: •2 years ago
+              - generic [ref=e865]:
+                - link [ref=e867] [cursor=pointer]:
+                  - /url: /watch?v=vHgjTkSn778
+                - generic [ref=e871] [cursor=pointer]:
+                  - heading "Rest Assured API Automation Framework GitHub Repository 51 seconds" [level=3] [ref=e872]:
+                    - link "Rest Assured API Automation Framework GitHub Repository 51 seconds" [ref=e873]:
+                      - /url: /watch?v=vHgjTkSn778
+                      - text: Rest Assured API Automation Framework GitHub Repository
+                  - generic [ref=e875]:
+                    - generic "Testers Talk" [ref=e880]:
+                      - link "Testers Talk" [ref=e881]:
+                        - /url: /@testerstalk
+                    - generic [ref=e882]:
+                      - generic [ref=e883]: 5.3K views
+                      - generic [ref=e884]: •2 years ago
+              - generic [ref=e886]:
+                - link [ref=e888] [cursor=pointer]:
+                  - /url: /watch?v=HAo8VsnnJVA
+                - generic [ref=e892] [cursor=pointer]:
+                  - heading "How to Resolve equalTo() from Matchers.equalTo() Import Issue in Rest Assured API Automation Testing 2 minutes, 42 seconds" [level=3] [ref=e893]:
+                    - link "How to Resolve equalTo() from Matchers.equalTo() Import Issue in Rest Assured API Automation Testing 2 minutes, 42 seconds" [ref=e894]:
+                      - /url: /watch?v=HAo8VsnnJVA
+                      - text: How to Resolve equalTo() from Matchers.equalTo() Import Issue in Rest Assured API Automation Testing
+                  - generic [ref=e896]:
+                    - generic "Testers Talk" [ref=e901]:
+                      - link "Testers Talk" [ref=e902]:
+                        - /url: /@testerstalk
+                    - generic [ref=e903]:
+                      - generic [ref=e904]: 1.2K views
+                      - generic [ref=e905]: •2 years ago
+              - generic [ref=e907]:
+                - link [ref=e909] [cursor=pointer]:
+                  - /url: /watch?v=FtdvhPEVhuE
+                - generic [ref=e913] [cursor=pointer]:
+                  - heading "How to Resolve SLF4J Error in Maven Project | failed to load class org.slf4j.impl.staticloggerbinder 3 minutes, 40 seconds" [level=3] [ref=e914]:
+                    - link "How to Resolve SLF4J Error in Maven Project | failed to load class org.slf4j.impl.staticloggerbinder 3 minutes, 40 seconds" [ref=e915]:
+                      - /url: /watch?v=FtdvhPEVhuE
+                      - text: How to Resolve SLF4J Error in Maven Project | failed to load class org.slf4j.impl.staticloggerbinder
+                  - generic [ref=e917]:
+                    - generic "Testers Talk" [ref=e922]:
+                      - link "Testers Talk" [ref=e923]:
+                        - /url: /@testerstalk
+                    - generic [ref=e924]:
+                      - generic [ref=e925]: 29K views
+                      - generic [ref=e926]: •2 years ago
+            - button "Next" [ref=e929] [cursor=pointer]
+        - generic [ref=e938]:
+          - heading "Specflow Selenium C# by Testers Talk Play all" [level=2] [ref=e941]:
+            - link "Specflow Selenium C# by Testers Talk" [ref=e944] [cursor=pointer]:
+              - /url: /playlist?list=PLUeDIlio4THGmh41cgOGHMPxAJyK44WrA
+              - generic [ref=e945]: Specflow Selenium C# by Testers Talk
+            - link "Play all" [ref=e949] [cursor=pointer]:
+              - /url: /watch?v=7xPcalwU76c&list=PLUeDIlio4THGmh41cgOGHMPxAJyK44WrA
+              - generic [ref=e952]: Play all
+          - generic [ref=e957]:
+            - generic [ref=e960]:
+              - generic [ref=e962]:
+                - link [ref=e964] [cursor=pointer]:
+                  - /url: /watch?v=7xPcalwU76c
+                - generic [ref=e968] [cursor=pointer]:
+                  - heading "SpecFlow Selenium C# Tutorial Full Course | SpecFlow C# Tutorial | Selenium Automation Testing 2 hours, 59 minutes" [level=3] [ref=e969]:
+                    - link "SpecFlow Selenium C# Tutorial Full Course | SpecFlow C# Tutorial | Selenium Automation Testing 2 hours, 59 minutes" [ref=e970]:
+                      - /url: /watch?v=7xPcalwU76c
+                      - text: SpecFlow Selenium C# Tutorial Full Course | SpecFlow C# Tutorial | Selenium Automation Testing
+                  - generic [ref=e972]:
+                    - generic "Testers Talk" [ref=e977]:
+                      - link "Testers Talk" [ref=e978]:
+                        - /url: /@testerstalk
+                    - generic [ref=e979]:
+                      - generic [ref=e980]: 84K views
+                      - generic [ref=e981]: •3 years ago
+              - generic [ref=e983]:
+                - link [ref=e985] [cursor=pointer]:
+                  - /url: /watch?v=tpANSHdrwp8
+                - generic [ref=e989] [cursor=pointer]:
+                  - heading "SpecFlow Selenium C# Tutorials-01 End to End in 20 Minutes |Install, Project Creation & First Script 33 minutes" [level=3] [ref=e990]:
+                    - link "SpecFlow Selenium C# Tutorials-01 End to End in 20 Minutes |Install, Project Creation & First Script 33 minutes" [ref=e991]:
+                      - /url: /watch?v=tpANSHdrwp8
+                      - text: SpecFlow Selenium C# Tutorials-01 End to End in 20 Minutes |Install, Project Creation & First Script
+                  - generic [ref=e993]:
+                    - generic "Testers Talk" [ref=e998]:
+                      - link "Testers Talk" [ref=e999]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1000]:
+                      - generic [ref=e1001]: 36K views
+                      - generic [ref=e1002]: •3 years ago
+              - generic [ref=e1004]:
+                - link [ref=e1006] [cursor=pointer]:
+                  - /url: /watch?v=mGWIzf82zyo
+                - generic [ref=e1010] [cursor=pointer]:
+                  - heading "SpecFlow Selenium C# Tutorials-02 | Hooks Implementation 20 minutes" [level=3] [ref=e1011]:
+                    - link "SpecFlow Selenium C# Tutorials-02 | Hooks Implementation 20 minutes" [ref=e1012]:
+                      - /url: /watch?v=mGWIzf82zyo
+                      - text: SpecFlow Selenium C# Tutorials-02 | Hooks Implementation
+                  - generic [ref=e1014]:
+                    - generic "Testers Talk" [ref=e1019]:
+                      - link "Testers Talk" [ref=e1020]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1021]:
+                      - generic [ref=e1022]: 11K views
+                      - generic [ref=e1023]: •3 years ago
+              - generic [ref=e1025]:
+                - link [ref=e1027] [cursor=pointer]:
+                  - /url: /watch?v=qKJ3ZwC8Tag
+                - generic [ref=e1031] [cursor=pointer]:
+                  - heading "SpecFlow Selenium C# Tutorials-03 | Extent Report Generation & Customization 28 minutes" [level=3] [ref=e1032]:
+                    - link "SpecFlow Selenium C# Tutorials-03 | Extent Report Generation & Customization 28 minutes" [ref=e1033]:
+                      - /url: /watch?v=qKJ3ZwC8Tag
+                      - text: SpecFlow Selenium C# Tutorials-03 | Extent Report Generation & Customization
+                  - generic [ref=e1035]:
+                    - generic "Testers Talk" [ref=e1040]:
+                      - link "Testers Talk" [ref=e1041]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1042]:
+                      - generic [ref=e1043]: 13K views
+                      - generic [ref=e1044]: •3 years ago
+              - generic [ref=e1046]:
+                - link [ref=e1048] [cursor=pointer]:
+                  - /url: /watch?v=4NfT9w1wMLc
+                - generic [ref=e1052] [cursor=pointer]:
+                  - heading "SpecFlow Selenium C# Tutorials-04 Add Screenshot into Extent Report When Script Failed 19 minutes" [level=3] [ref=e1053]:
+                    - link "SpecFlow Selenium C# Tutorials-04 Add Screenshot into Extent Report When Script Failed 19 minutes" [ref=e1054]:
+                      - /url: /watch?v=4NfT9w1wMLc
+                      - text: SpecFlow Selenium C# Tutorials-04 Add Screenshot into Extent Report When Script Failed
+                  - generic [ref=e1056]:
+                    - generic "Testers Talk" [ref=e1061]:
+                      - link "Testers Talk" [ref=e1062]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1063]:
+                      - generic [ref=e1064]: 6.8K views
+                      - generic [ref=e1065]: •3 years ago
+              - generic [ref=e1067]:
+                - link [ref=e1069] [cursor=pointer]:
+                  - /url: /watch?v=8yE_Opp8TNU
+                - generic [ref=e1073] [cursor=pointer]:
+                  - heading "SpecFlow Selenium C# Tutorials-05 | Data Driven Testing Part-01 9 minutes, 12 seconds" [level=3] [ref=e1074]:
+                    - link "SpecFlow Selenium C# Tutorials-05 | Data Driven Testing Part-01 9 minutes, 12 seconds" [ref=e1075]:
+                      - /url: /watch?v=8yE_Opp8TNU
+                      - text: SpecFlow Selenium C# Tutorials-05 | Data Driven Testing Part-01
+                  - generic [ref=e1077]:
+                    - generic "Testers Talk" [ref=e1082]:
+                      - link "Testers Talk" [ref=e1083]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1084]:
+                      - generic [ref=e1085]: 4K views
+                      - generic [ref=e1086]: •2 years ago
+            - button "Next" [ref=e1089] [cursor=pointer]
+        - generic [ref=e1098]:
+          - heading "EasyRepro by Testers Talk Play all" [level=2] [ref=e1101]:
+            - link "EasyRepro by Testers Talk" [ref=e1104] [cursor=pointer]:
+              - /url: /playlist?list=PLUeDIlio4THFl64e0ifCQsVeATBy152Xc
+              - generic [ref=e1105]: EasyRepro by Testers Talk
+            - link "Play all" [ref=e1109] [cursor=pointer]:
+              - /url: /watch?v=x0cHZ3E7Ekw&list=PLUeDIlio4THFl64e0ifCQsVeATBy152Xc
+              - generic [ref=e1112]: Play all
+          - generic [ref=e1117]:
+            - generic [ref=e1120]:
+              - generic [ref=e1122]:
+                - link [ref=e1124] [cursor=pointer]:
+                  - /url: /watch?v=x0cHZ3E7Ekw
+                - generic [ref=e1128] [cursor=pointer]:
+                  - heading "EasyRepro Framework Tutorial Full Course | Microsoft D365 CRM Automation 2 hours, 2 minutes" [level=3] [ref=e1129]:
+                    - link "EasyRepro Framework Tutorial Full Course | Microsoft D365 CRM Automation 2 hours, 2 minutes" [ref=e1130]:
+                      - /url: /watch?v=x0cHZ3E7Ekw
+                      - text: EasyRepro Framework Tutorial Full Course | Microsoft D365 CRM Automation
+                  - generic [ref=e1132]:
+                    - generic "Testers Talk" [ref=e1137]:
+                      - link "Testers Talk" [ref=e1138]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1139]:
+                      - generic [ref=e1140]: 11K views
+                      - generic [ref=e1141]: •3 years ago
+              - generic [ref=e1143]:
+                - link [ref=e1145] [cursor=pointer]:
+                  - /url: /watch?v=pKR2a4pcfdg
+                - generic [ref=e1149] [cursor=pointer]:
+                  - heading "EasyRepro Framework Tutorials-01 | SetUp Working GitHub Repository 10 minutes, 37 seconds" [level=3] [ref=e1150]:
+                    - link "EasyRepro Framework Tutorials-01 | SetUp Working GitHub Repository 10 minutes, 37 seconds" [ref=e1151]:
+                      - /url: /watch?v=pKR2a4pcfdg
+                      - text: EasyRepro Framework Tutorials-01 | SetUp Working GitHub Repository
+                  - generic [ref=e1153]:
+                    - generic "Testers Talk" [ref=e1158]:
+                      - link "Testers Talk" [ref=e1159]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1160]:
+                      - generic [ref=e1161]: 4.7K views
+                      - generic [ref=e1162]: •3 years ago
+              - generic [ref=e1164]:
+                - link [ref=e1166] [cursor=pointer]:
+                  - /url: /watch?v=vS1RHu71-Z8
+                - generic [ref=e1170] [cursor=pointer]:
+                  - heading "EasyRepro Framework Tutorials-02 | Automate Microsoft Dynamics 365 CRM Application 23 minutes" [level=3] [ref=e1171]:
+                    - link "EasyRepro Framework Tutorials-02 | Automate Microsoft Dynamics 365 CRM Application 23 minutes" [ref=e1172]:
+                      - /url: /watch?v=vS1RHu71-Z8
+                      - text: EasyRepro Framework Tutorials-02 | Automate Microsoft Dynamics 365 CRM Application
+                  - generic [ref=e1174]:
+                    - generic "Testers Talk" [ref=e1179]:
+                      - link "Testers Talk" [ref=e1180]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1181]:
+                      - generic [ref=e1182]: 2.6K views
+                      - generic [ref=e1183]: •3 years ago
+              - generic [ref=e1185]:
+                - link [ref=e1187] [cursor=pointer]:
+                  - /url: /watch?v=fc9e5lHfGGI
+                - generic [ref=e1191] [cursor=pointer]:
+                  - heading "EasyRepro Framework Tutorials-03 | Lookup Field, Dropdown List & TABS 15 minutes" [level=3] [ref=e1192]:
+                    - link "EasyRepro Framework Tutorials-03 | Lookup Field, Dropdown List & TABS 15 minutes" [ref=e1193]:
+                      - /url: /watch?v=fc9e5lHfGGI
+                      - text: EasyRepro Framework Tutorials-03 | Lookup Field, Dropdown List & TABS
+                  - generic [ref=e1195]:
+                    - generic "Testers Talk" [ref=e1200]:
+                      - link "Testers Talk" [ref=e1201]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1202]:
+                      - generic [ref=e1203]: 2K views
+                      - generic [ref=e1204]: •3 years ago
+              - generic [ref=e1206]:
+                - link [ref=e1208] [cursor=pointer]:
+                  - /url: /watch?v=Sg8TlbOoikA
+                - generic [ref=e1212] [cursor=pointer]:
+                  - heading "EasyRepro Framework Tutorials-04 | Date Field, Assign Priority & Grouping Scripts 10 minutes, 11 seconds" [level=3] [ref=e1213]:
+                    - link "EasyRepro Framework Tutorials-04 | Date Field, Assign Priority & Grouping Scripts 10 minutes, 11 seconds" [ref=e1214]:
+                      - /url: /watch?v=Sg8TlbOoikA
+                      - text: EasyRepro Framework Tutorials-04 | Date Field, Assign Priority & Grouping Scripts
+                  - generic [ref=e1216]:
+                    - generic "Testers Talk" [ref=e1221]:
+                      - link "Testers Talk" [ref=e1222]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1223]:
+                      - generic [ref=e1224]: 1K views
+                      - generic [ref=e1225]: •3 years ago
+              - generic [ref=e1227]:
+                - link [ref=e1229] [cursor=pointer]:
+                  - /url: /watch?v=hpEZt-_UeHc
+                - generic [ref=e1233] [cursor=pointer]:
+                  - heading "EasyRepro Framework Tutorials-05 | Create CRM Record and Search Record 6 minutes, 20 seconds" [level=3] [ref=e1234]:
+                    - link "EasyRepro Framework Tutorials-05 | Create CRM Record and Search Record 6 minutes, 20 seconds" [ref=e1235]:
+                      - /url: /watch?v=hpEZt-_UeHc
+                      - text: EasyRepro Framework Tutorials-05 | Create CRM Record and Search Record
+                  - generic [ref=e1237]:
+                    - generic "Testers Talk" [ref=e1242]:
+                      - link "Testers Talk" [ref=e1243]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1244]:
+                      - generic [ref=e1245]: 874 views
+                      - generic [ref=e1246]: •2 years ago
+            - button "Next" [ref=e1249] [cursor=pointer]
+        - generic [ref=e1258]:
+          - heading "Full Courses by Bakkappa N Play all" [level=2] [ref=e1261]:
+            - link "Full Courses by Bakkappa N" [ref=e1264] [cursor=pointer]:
+              - /url: /playlist?list=PLUeDIlio4THE4J8uOMpJJw6IEssBwDFrL
+              - generic [ref=e1265]: Full Courses by Bakkappa N
+            - link "Play all" [ref=e1269] [cursor=pointer]:
+              - /url: /watch?v=lwkyl-Th9nU&list=PLUeDIlio4THE4J8uOMpJJw6IEssBwDFrL
+              - generic [ref=e1272]: Play all
+          - generic [ref=e1277]:
+            - generic [ref=e1280]:
+              - generic [ref=e1282]:
+                - link [ref=e1284] [cursor=pointer]:
+                  - /url: /watch?v=lwkyl-Th9nU
+                - generic [ref=e1288] [cursor=pointer]:
+                  - heading "Data Driven Framework Full Course by Bakkappa N 1 hour, 46 minutes" [level=3] [ref=e1289]:
+                    - link "Data Driven Framework Full Course by Bakkappa N 1 hour, 46 minutes" [ref=e1290]:
+                      - /url: /watch?v=lwkyl-Th9nU
+                      - text: Data Driven Framework Full Course by Bakkappa N
+                  - generic [ref=e1292]:
+                    - generic "Testers Talk" [ref=e1297]:
+                      - link "Testers Talk" [ref=e1298]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1299]:
+                      - generic [ref=e1300]: 7.7K views
+                      - generic [ref=e1301]: •5 years ago
+              - generic [ref=e1303]:
+                - link [ref=e1305] [cursor=pointer]:
+                  - /url: /watch?v=OpzWMdL7kRA
+                - generic [ref=e1309] [cursor=pointer]:
+                  - heading "Appium Selenium GRID Tutorial Full Course by Bakkappa N 1 hour, 3 minutes" [level=3] [ref=e1310]:
+                    - link "Appium Selenium GRID Tutorial Full Course by Bakkappa N 1 hour, 3 minutes" [ref=e1311]:
+                      - /url: /watch?v=OpzWMdL7kRA
+                      - text: Appium Selenium GRID Tutorial Full Course by Bakkappa N
+                  - generic [ref=e1313]:
+                    - generic "Testers Talk" [ref=e1318]:
+                      - link "Testers Talk" [ref=e1319]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1320]:
+                      - generic [ref=e1321]: 4.4K views
+                      - generic [ref=e1322]: •5 years ago
+              - generic [ref=e1324]:
+                - link [ref=e1326] [cursor=pointer]:
+                  - /url: /watch?v=uVS08EMxThk&pp=0gcJCcMKAYcqIYzv
+                - generic [ref=e1330] [cursor=pointer]:
+                  - heading "Selenium GRID Full Course by Bakkappa N 39 minutes" [level=3] [ref=e1331]:
+                    - link "Selenium GRID Full Course by Bakkappa N 39 minutes" [ref=e1332]:
+                      - /url: /watch?v=uVS08EMxThk&pp=0gcJCcMKAYcqIYzv
+                      - text: Selenium GRID Full Course by Bakkappa N
+                  - generic [ref=e1334]:
+                    - generic "Testers Talk" [ref=e1339]:
+                      - link "Testers Talk" [ref=e1340]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1341]:
+                      - generic [ref=e1342]: 4K views
+                      - generic [ref=e1343]: •5 years ago
+              - generic [ref=e1345]:
+                - link [ref=e1347] [cursor=pointer]:
+                  - /url: /watch?v=Xw4Gok2i2pA
+                - generic [ref=e1351] [cursor=pointer]:
+                  - heading "Cucumber BDD Framework Full Course by Bakkappa N 2 hours, 54 minutes" [level=3] [ref=e1352]:
+                    - link "Cucumber BDD Framework Full Course by Bakkappa N 2 hours, 54 minutes" [ref=e1353]:
+                      - /url: /watch?v=Xw4Gok2i2pA
+                      - text: Cucumber BDD Framework Full Course by Bakkappa N
+                  - generic [ref=e1355]:
+                    - generic "Testers Talk" [ref=e1360]:
+                      - link "Testers Talk" [ref=e1361]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1362]:
+                      - generic [ref=e1363]: 13K views
+                      - generic [ref=e1364]: •6 years ago
+              - generic [ref=e1366]:
+                - link [ref=e1368] [cursor=pointer]:
+                  - /url: /watch?v=Ls9dCu7TTXU&pp=0gcJCcMKAYcqIYzv
+                - generic [ref=e1372] [cursor=pointer]:
+                  - heading "Cucumber(BDD) Selenium Framework Full Course 2 by Bakkappa N 3 hours, 51 minutes" [level=3] [ref=e1373]:
+                    - link "Cucumber(BDD) Selenium Framework Full Course 2 by Bakkappa N 3 hours, 51 minutes" [ref=e1374]:
+                      - /url: /watch?v=Ls9dCu7TTXU&pp=0gcJCcMKAYcqIYzv
+                      - text: Cucumber(BDD) Selenium Framework Full Course 2 by Bakkappa N
+                  - generic [ref=e1376]:
+                    - generic "Testers Talk" [ref=e1381]:
+                      - link "Testers Talk" [ref=e1382]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1383]:
+                      - generic [ref=e1384]: 4.6K views
+                      - generic [ref=e1385]: •6 years ago
+              - generic [ref=e1387]:
+                - link [ref=e1389] [cursor=pointer]:
+                  - /url: /watch?v=Xnxf6uK7V5Q
+                - generic [ref=e1393] [cursor=pointer]:
+                  - heading "Appium Full Course by Bakkappa N 3 hours, 8 minutes" [level=3] [ref=e1394]:
+                    - link "Appium Full Course by Bakkappa N 3 hours, 8 minutes" [ref=e1395]:
+                      - /url: /watch?v=Xnxf6uK7V5Q
+                      - text: Appium Full Course by Bakkappa N
+                  - generic [ref=e1397]:
+                    - generic "Testers Talk" [ref=e1402]:
+                      - link "Testers Talk" [ref=e1403]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1404]:
+                      - generic [ref=e1405]: 11K views
+                      - generic [ref=e1406]: •6 years ago
+            - button "Next" [ref=e1409] [cursor=pointer]
+        - generic [ref=e1418]:
+          - heading "Popular videos" [level=2] [ref=e1421]:
+            - link "Popular videos" [ref=e1424] [cursor=pointer]:
+              - /url: /@testerstalk/videos?view=0&sort=p&shelf_id=9
+              - generic [ref=e1425]: Popular videos
+          - generic [ref=e1427]:
+            - generic [ref=e1430]:
+              - generic [ref=e1432]:
+                - link [ref=e1434] [cursor=pointer]:
+                  - /url: /watch?v=utfaE9Nv1FY
+                - generic [ref=e1438] [cursor=pointer]:
+                  - heading "Selenium C# Full Course by Bakkappa N 4 hours, 58 minutes" [level=3] [ref=e1439]:
+                    - link "Selenium C# Full Course by Bakkappa N 4 hours, 58 minutes" [ref=e1440]:
+                      - /url: /watch?v=utfaE9Nv1FY
+                      - text: Selenium C# Full Course by Bakkappa N
+                  - generic [ref=e1443]:
+                    - generic [ref=e1444]: 195K views
+                    - generic [ref=e1445]: •6 years ago
+              - generic [ref=e1447]:
+                - link [ref=e1449] [cursor=pointer]:
+                  - /url: /watch?v=QKBa8lt5Wfo
+                - generic [ref=e1453] [cursor=pointer]:
+                  - heading "API Testing Postman Tutorial Full Course 2024 2 hours, 43 minutes" [level=3] [ref=e1454]:
+                    - link "API Testing Postman Tutorial Full Course 2024 2 hours, 43 minutes" [ref=e1455]:
+                      - /url: /watch?v=QKBa8lt5Wfo
+                      - text: API Testing Postman Tutorial Full Course 2024
+                  - generic [ref=e1458]:
+                    - generic [ref=e1459]: 158K views
+                    - generic [ref=e1460]: •3 years ago
+              - generic [ref=e1462]:
+                - link [ref=e1464] [cursor=pointer]:
+                  - /url: /watch?v=2poXBtifpzA
+                - generic [ref=e1468] [cursor=pointer]:
+                  - heading "#1 Playwright Tutorial Full Course 2026 | Playwright Testing Tutorial 6 hours, 55 minutes" [level=3] [ref=e1469]:
+                    - link "#1 Playwright Tutorial Full Course 2026 | Playwright Testing Tutorial 6 hours, 55 minutes" [ref=e1470]:
+                      - /url: /watch?v=2poXBtifpzA
+                      - text: "#1 Playwright Tutorial Full Course 2026 | Playwright Testing Tutorial"
+                  - generic [ref=e1473]:
+                    - generic [ref=e1474]: 143K views
+                    - generic [ref=e1475]: •2 years ago
+              - generic [ref=e1477]:
+                - link [ref=e1479] [cursor=pointer]:
+                  - /url: /watch?v=788GvvcfwTY
+                - generic [ref=e1483] [cursor=pointer]:
+                  - heading "#1 Playwright Automation Using TypeScript Full Course 2026 | Playwright TypeScript Beginner Tutorial 8 hours, 55 minutes" [level=3] [ref=e1484]:
+                    - link "#1 Playwright Automation Using TypeScript Full Course 2026 | Playwright TypeScript Beginner Tutorial 8 hours, 55 minutes" [ref=e1485]:
+                      - /url: /watch?v=788GvvcfwTY
+                      - text: "#1 Playwright Automation Using TypeScript Full Course 2026 | Playwright TypeScript Beginner Tutorial"
+                  - generic [ref=e1488]:
+                    - generic [ref=e1489]: 140K views
+                    - generic [ref=e1490]: •1 year ago
+              - generic [ref=e1492]:
+                - link [ref=e1494] [cursor=pointer]:
+                  - /url: /watch?v=7xPcalwU76c
+                - generic [ref=e1498] [cursor=pointer]:
+                  - heading "SpecFlow Selenium C# Tutorial Full Course | SpecFlow C# Tutorial | Selenium Automation Testing 2 hours, 59 minutes" [level=3] [ref=e1499]:
+                    - link "SpecFlow Selenium C# Tutorial Full Course | SpecFlow C# Tutorial | Selenium Automation Testing 2 hours, 59 minutes" [ref=e1500]:
+                      - /url: /watch?v=7xPcalwU76c
+                      - text: SpecFlow Selenium C# Tutorial Full Course | SpecFlow C# Tutorial | Selenium Automation Testing
+                  - generic [ref=e1503]:
+                    - generic [ref=e1504]: 84K views
+                    - generic [ref=e1505]: •3 years ago
+              - generic [ref=e1507]:
+                - link [ref=e1509] [cursor=pointer]:
+                  - /url: /watch?v=oJV5whmzfZI
+                - generic [ref=e1513] [cursor=pointer]:
+                  - heading "Cypress Tutorial Full Course | Cypress Automation | Learn Cypress in 5 Hrs 5 hours, 4 minutes" [level=3] [ref=e1514]:
+                    - link "Cypress Tutorial Full Course | Cypress Automation | Learn Cypress in 5 Hrs 5 hours, 4 minutes" [ref=e1515]:
+                      - /url: /watch?v=oJV5whmzfZI
+                      - text: Cypress Tutorial Full Course | Cypress Automation | Learn Cypress in 5 Hrs
+                  - generic [ref=e1518]:
+                    - generic [ref=e1519]: 76K views
+                    - generic [ref=e1520]: •2 years ago
+            - button "Next" [ref=e1523] [cursor=pointer]
+        - generic [ref=e1532]:
+          - heading "Selenium Java Series By Bakkappa N Play all" [level=2] [ref=e1535]:
+            - link "Selenium Java Series By Bakkappa N" [ref=e1538] [cursor=pointer]:
+              - /url: /playlist?list=PLUeDIlio4THF20MOpq3wG1dyACBhB1uhU
+              - generic [ref=e1539]: Selenium Java Series By Bakkappa N
+            - link "Play all" [ref=e1543] [cursor=pointer]:
+              - /url: /watch?v=nGGEu0BMUCQ&list=PLUeDIlio4THF20MOpq3wG1dyACBhB1uhU
+              - generic [ref=e1546]: Play all
+          - generic [ref=e1551]:
+            - generic [ref=e1554]:
+              - generic [ref=e1556]:
+                - link [ref=e1558] [cursor=pointer]:
+                  - /url: /watch?v=nGGEu0BMUCQ
+                - generic [ref=e1562] [cursor=pointer]:
+                  - heading "How to Setup Selenium Maven Project from Scratch 25 minutes" [level=3] [ref=e1563]:
+                    - link "How to Setup Selenium Maven Project from Scratch 25 minutes" [ref=e1564]:
+                      - /url: /watch?v=nGGEu0BMUCQ
+                      - text: How to Setup Selenium Maven Project from Scratch
+                  - generic [ref=e1566]:
+                    - generic "Testers Talk" [ref=e1571]:
+                      - link "Testers Talk" [ref=e1572]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1573]:
+                      - generic [ref=e1574]: 5.5K views
+                      - generic [ref=e1575]: •6 years ago
+              - generic [ref=e1577]:
+                - link [ref=e1579] [cursor=pointer]:
+                  - /url: /watch?v=qEKPXAr07kk
+                - generic [ref=e1583] [cursor=pointer]:
+                  - heading "How to Perform Drap and Drop in Selenium WebDriver 14 minutes, 18 seconds" [level=3] [ref=e1584]:
+                    - link "How to Perform Drap and Drop in Selenium WebDriver 14 minutes, 18 seconds" [ref=e1585]:
+                      - /url: /watch?v=qEKPXAr07kk
+                      - text: How to Perform Drap and Drop in Selenium WebDriver
+                  - generic [ref=e1587]:
+                    - generic "Testers Talk" [ref=e1592]:
+                      - link "Testers Talk" [ref=e1593]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1594]:
+                      - generic [ref=e1595]: 1.2K views
+                      - generic [ref=e1596]: •6 years ago
+              - generic [ref=e1598]:
+                - link [ref=e1600] [cursor=pointer]:
+                  - /url: /watch?v=k4NujBIVQWM
+                - generic [ref=e1604] [cursor=pointer]:
+                  - heading "How to Perform Mouse Hover in Selenium WebDriver by Bakkappa N 11 minutes, 23 seconds" [level=3] [ref=e1605]:
+                    - link "How to Perform Mouse Hover in Selenium WebDriver by Bakkappa N 11 minutes, 23 seconds" [ref=e1606]:
+                      - /url: /watch?v=k4NujBIVQWM
+                      - text: How to Perform Mouse Hover in Selenium WebDriver by Bakkappa N
+                  - generic [ref=e1608]:
+                    - generic "Testers Talk" [ref=e1613]:
+                      - link "Testers Talk" [ref=e1614]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1615]:
+                      - generic [ref=e1616]: 2.2K views
+                      - generic [ref=e1617]: •6 years ago
+              - generic [ref=e1619]:
+                - link [ref=e1621] [cursor=pointer]:
+                  - /url: /watch?v=WYES2God4ns
+                - generic [ref=e1625] [cursor=pointer]:
+                  - heading "How to Select ul li tags Bootstrap Dropdown in Selenium WebDriver? 17 minutes" [level=3] [ref=e1626]:
+                    - link "How to Select ul li tags Bootstrap Dropdown in Selenium WebDriver? 17 minutes" [ref=e1627]:
+                      - /url: /watch?v=WYES2God4ns
+                      - text: How to Select ul li tags Bootstrap Dropdown in Selenium WebDriver?
+                  - generic [ref=e1629]:
+                    - generic "Testers Talk" [ref=e1634]:
+                      - link "Testers Talk" [ref=e1635]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1636]:
+                      - generic [ref=e1637]: 13K views
+                      - generic [ref=e1638]: •6 years ago
+              - generic [ref=e1640]:
+                - link [ref=e1642] [cursor=pointer]:
+                  - /url: /watch?v=Ag8xJQnzFf0
+                - generic [ref=e1646] [cursor=pointer]:
+                  - heading "Selenium 4 Features Part-1 || Handling Browser TABS and New Windows 27 minutes" [level=3] [ref=e1647]:
+                    - link "Selenium 4 Features Part-1 || Handling Browser TABS and New Windows 27 minutes" [ref=e1648]:
+                      - /url: /watch?v=Ag8xJQnzFf0
+                      - text: Selenium 4 Features Part-1 || Handling Browser TABS and New Windows
+                  - generic [ref=e1650]:
+                    - generic "Testers Talk" [ref=e1655]:
+                      - link "Testers Talk" [ref=e1656]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1657]:
+                      - generic [ref=e1658]: 1.1K views
+                      - generic [ref=e1659]: •6 years ago
+              - generic [ref=e1661]:
+                - link [ref=e1663] [cursor=pointer]:
+                  - /url: /watch?v=5B2ojefh3fU
+                - generic [ref=e1667] [cursor=pointer]:
+                  - heading "Selenium 4 Features Part-2 || How to take Screenshot of WebElement or WebPage? 16 minutes" [level=3] [ref=e1668]:
+                    - link "Selenium 4 Features Part-2 || How to take Screenshot of WebElement or WebPage? 16 minutes" [ref=e1669]:
+                      - /url: /watch?v=5B2ojefh3fU
+                      - text: Selenium 4 Features Part-2 || How to take Screenshot of WebElement or WebPage?
+                  - generic [ref=e1671]:
+                    - generic "Testers Talk" [ref=e1676]:
+                      - link "Testers Talk" [ref=e1677]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1678]:
+                      - generic [ref=e1679]: 941 views
+                      - generic [ref=e1680]: •6 years ago
+            - button "Next" [ref=e1683] [cursor=pointer]
+        - generic [ref=e1692]:
+          - generic [ref=e1693]:
+            - heading "Selenium GRID Tutorials Play all" [level=2] [ref=e1695]:
+              - link "Selenium GRID Tutorials" [ref=e1698] [cursor=pointer]:
+                - /url: /playlist?list=PLUeDIlio4THEt8EG3AH1M6SwuhvlxJru8
+                - generic [ref=e1699]: Selenium GRID Tutorials
+              - link "Play all" [ref=e1703] [cursor=pointer]:
+                - /url: /watch?v=kevXwbatJvU&list=PLUeDIlio4THEt8EG3AH1M6SwuhvlxJru8
+                - generic [ref=e1706]: Play all
+            - generic [ref=e1710]: Appium Selenium GRID tutorials, selenium grid, appium grid
+          - generic [ref=e1712]:
+            - generic [ref=e1715]:
+              - generic [ref=e1717]:
+                - link [ref=e1719] [cursor=pointer]:
+                  - /url: /watch?v=kevXwbatJvU
+                - generic [ref=e1723] [cursor=pointer]:
+                  - heading "Selenium GRID Tutorial-1 || Selenium GRID Set Up 14 minutes, 11 seconds" [level=3] [ref=e1724]:
+                    - link "Selenium GRID Tutorial-1 || Selenium GRID Set Up 14 minutes, 11 seconds" [ref=e1725]:
+                      - /url: /watch?v=kevXwbatJvU
+                      - text: Selenium GRID Tutorial-1 || Selenium GRID Set Up
+                  - generic [ref=e1727]:
+                    - generic "Testers Talk" [ref=e1732]:
+                      - link "Testers Talk" [ref=e1733]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1734]:
+                      - generic [ref=e1735]: 42K views
+                      - generic [ref=e1736]: •5 years ago
+              - generic [ref=e1738]:
+                - link [ref=e1740] [cursor=pointer]:
+                  - /url: /watch?v=m6S1qyTPxr4
+                - generic [ref=e1744] [cursor=pointer]:
+                  - heading "Selenium GRID Tutorial-2 || Selenium GRID Test Execution Chrome Firefox IE Browser 16 minutes" [level=3] [ref=e1745]:
+                    - link "Selenium GRID Tutorial-2 || Selenium GRID Test Execution Chrome Firefox IE Browser 16 minutes" [ref=e1746]:
+                      - /url: /watch?v=m6S1qyTPxr4
+                      - text: Selenium GRID Tutorial-2 || Selenium GRID Test Execution Chrome Firefox IE Browser
+                  - generic [ref=e1748]:
+                    - generic "Testers Talk" [ref=e1753]:
+                      - link "Testers Talk" [ref=e1754]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1755]:
+                      - generic [ref=e1756]: 14K views
+                      - generic [ref=e1757]: •5 years ago
+              - generic [ref=e1759]:
+                - link [ref=e1761] [cursor=pointer]:
+                  - /url: /watch?v=bNxg6-UyGvo
+                - generic [ref=e1765] [cursor=pointer]:
+                  - heading "Selenium GRID Tutorial-3 || Selenium GRID Parallel Test Execution 8 minutes, 49 seconds" [level=3] [ref=e1766]:
+                    - link "Selenium GRID Tutorial-3 || Selenium GRID Parallel Test Execution 8 minutes, 49 seconds" [ref=e1767]:
+                      - /url: /watch?v=bNxg6-UyGvo
+                      - text: Selenium GRID Tutorial-3 || Selenium GRID Parallel Test Execution
+                  - generic [ref=e1769]:
+                    - generic "Testers Talk" [ref=e1774]:
+                      - link "Testers Talk" [ref=e1775]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1776]:
+                      - generic [ref=e1777]: 13K views
+                      - generic [ref=e1778]: •5 years ago
+              - generic [ref=e1780]:
+                - link [ref=e1782] [cursor=pointer]:
+                  - /url: /watch?v=V49d25lj59s
+                - generic [ref=e1786] [cursor=pointer]:
+                  - heading "Appium Selenium GRID Tutorial-01 || Appium Selenium GRID Set Up 29 minutes" [level=3] [ref=e1787]:
+                    - link "Appium Selenium GRID Tutorial-01 || Appium Selenium GRID Set Up 29 minutes" [ref=e1788]:
+                      - /url: /watch?v=V49d25lj59s
+                      - text: Appium Selenium GRID Tutorial-01 || Appium Selenium GRID Set Up
+                  - generic [ref=e1790]:
+                    - generic "Testers Talk" [ref=e1795]:
+                      - link "Testers Talk" [ref=e1796]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1797]:
+                      - generic [ref=e1798]: 14K views
+                      - generic [ref=e1799]: •5 years ago
+              - generic [ref=e1801]:
+                - link [ref=e1803] [cursor=pointer]:
+                  - /url: /watch?v=xsVJC_1zhQM
+                - generic [ref=e1807] [cursor=pointer]:
+                  - heading "Appium Selenium GRID Tutorial-02 || Appium Selenium GRID Test Execution 20 minutes" [level=3] [ref=e1808]:
+                    - link "Appium Selenium GRID Tutorial-02 || Appium Selenium GRID Test Execution 20 minutes" [ref=e1809]:
+                      - /url: /watch?v=xsVJC_1zhQM
+                      - text: Appium Selenium GRID Tutorial-02 || Appium Selenium GRID Test Execution
+                  - generic [ref=e1811]:
+                    - generic "Testers Talk" [ref=e1816]:
+                      - link "Testers Talk" [ref=e1817]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1818]:
+                      - generic [ref=e1819]: 5.1K views
+                      - generic [ref=e1820]: •5 years ago
+              - generic [ref=e1822]:
+                - link [ref=e1824] [cursor=pointer]:
+                  - /url: /watch?v=srEQSuC8FhQ
+                - generic [ref=e1828] [cursor=pointer]:
+                  - heading "Appium Selenium GRID Tutorial-03 || Appium GRID Parallel Execution(Multiple Devices) 13 minutes, 18 seconds" [level=3] [ref=e1829]:
+                    - link "Appium Selenium GRID Tutorial-03 || Appium GRID Parallel Execution(Multiple Devices) 13 minutes, 18 seconds" [ref=e1830]:
+                      - /url: /watch?v=srEQSuC8FhQ
+                      - text: Appium Selenium GRID Tutorial-03 || Appium GRID Parallel Execution(Multiple Devices)
+                  - generic [ref=e1832]:
+                    - generic "Testers Talk" [ref=e1837]:
+                      - link "Testers Talk" [ref=e1838]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1839]:
+                      - generic [ref=e1840]: 7.8K views
+                      - generic [ref=e1841]: •5 years ago
+            - button "Next" [ref=e1844] [cursor=pointer]
+        - generic [ref=e1853]:
+          - generic [ref=e1854]:
+            - heading "Selenium C# NUnit Tutorials by Bakkappa N Play all" [level=2] [ref=e1856]:
+              - link "Selenium C# NUnit Tutorials by Bakkappa N" [ref=e1859] [cursor=pointer]:
+                - /url: /playlist?list=PLUeDIlio4THFUMN7yLmgk9vFiDtph1UFC
+                - generic [ref=e1860]: Selenium C# NUnit Tutorials by Bakkappa N
+              - link "Play all" [ref=e1864] [cursor=pointer]:
+                - /url: /watch?v=Xgg5syf850g&list=PLUeDIlio4THFUMN7yLmgk9vFiDtph1UFC
+                - generic [ref=e1867]: Play all
+            - generic [ref=e1871]: "#seleniumwebdriver #nunit #tutorials.net Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,Selenium C# NUnit Tutorials,"
+          - generic [ref=e1873]:
+            - generic [ref=e1876]:
+              - generic [ref=e1878]:
+                - link [ref=e1880] [cursor=pointer]:
+                  - /url: /watch?v=Xgg5syf850g
+                - generic [ref=e1884] [cursor=pointer]:
+                  - heading "Selenium C# .NET NUnit Tutorial-01 by Bakkappa N 40 minutes" [level=3] [ref=e1885]:
+                    - link "Selenium C# .NET NUnit Tutorial-01 by Bakkappa N 40 minutes" [ref=e1886]:
+                      - /url: /watch?v=Xgg5syf850g
+                      - text: Selenium C# .NET NUnit Tutorial-01 by Bakkappa N
+                  - generic [ref=e1888]:
+                    - generic "Testers Talk" [ref=e1893]:
+                      - link "Testers Talk" [ref=e1894]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1895]:
+                      - generic [ref=e1896]: 43K views
+                      - generic [ref=e1897]: •7 years ago
+              - generic [ref=e1899]:
+                - link [ref=e1901] [cursor=pointer]:
+                  - /url: /watch?v=tUQ91G9FpKs
+                - generic [ref=e1905] [cursor=pointer]:
+                  - heading "Selenium C# .NET NUnit Tutorial-02 by Bakkappa N 39 minutes" [level=3] [ref=e1906]:
+                    - link "Selenium C# .NET NUnit Tutorial-02 by Bakkappa N 39 minutes" [ref=e1907]:
+                      - /url: /watch?v=tUQ91G9FpKs
+                      - text: Selenium C# .NET NUnit Tutorial-02 by Bakkappa N
+                  - generic [ref=e1909]:
+                    - generic "Testers Talk" [ref=e1914]:
+                      - link "Testers Talk" [ref=e1915]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1916]:
+                      - generic [ref=e1917]: 12K views
+                      - generic [ref=e1918]: •7 years ago
+              - generic [ref=e1920]:
+                - link [ref=e1922] [cursor=pointer]:
+                  - /url: /watch?v=eZBQMdzkbOQ
+                - generic [ref=e1926] [cursor=pointer]:
+                  - heading "Selenium C# .NET NUnit Tutorial-03 by Bakkappa N 49 minutes" [level=3] [ref=e1927]:
+                    - link "Selenium C# .NET NUnit Tutorial-03 by Bakkappa N 49 minutes" [ref=e1928]:
+                      - /url: /watch?v=eZBQMdzkbOQ
+                      - text: Selenium C# .NET NUnit Tutorial-03 by Bakkappa N
+                  - generic [ref=e1930]:
+                    - generic "Testers Talk" [ref=e1935]:
+                      - link "Testers Talk" [ref=e1936]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1937]:
+                      - generic [ref=e1938]: 9.2K views
+                      - generic [ref=e1939]: •7 years ago
+              - generic [ref=e1941]:
+                - link [ref=e1943] [cursor=pointer]:
+                  - /url: /watch?v=u2PrYQuNpjU&pp=0gcJCcMKAYcqIYzv
+                - generic [ref=e1947] [cursor=pointer]:
+                  - heading "Selenium C# .NET NUnit Tutorial-04 by Bakkappa N 39 minutes" [level=3] [ref=e1948]:
+                    - link "Selenium C# .NET NUnit Tutorial-04 by Bakkappa N 39 minutes" [ref=e1949]:
+                      - /url: /watch?v=u2PrYQuNpjU&pp=0gcJCcMKAYcqIYzv
+                      - text: Selenium C# .NET NUnit Tutorial-04 by Bakkappa N
+                  - generic [ref=e1951]:
+                    - generic "Testers Talk" [ref=e1956]:
+                      - link "Testers Talk" [ref=e1957]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1958]:
+                      - generic [ref=e1959]: 7.3K views
+                      - generic [ref=e1960]: •7 years ago
+              - generic [ref=e1962]:
+                - link [ref=e1964] [cursor=pointer]:
+                  - /url: /watch?v=d6lSJHqc-zY
+                - generic [ref=e1968] [cursor=pointer]:
+                  - heading "Selenium C# How to Generate Extent Reports by Bakkappa N 36 minutes" [level=3] [ref=e1969]:
+                    - link "Selenium C# How to Generate Extent Reports by Bakkappa N 36 minutes" [ref=e1970]:
+                      - /url: /watch?v=d6lSJHqc-zY
+                      - text: Selenium C# How to Generate Extent Reports by Bakkappa N
+                  - generic [ref=e1972]:
+                    - generic "Testers Talk" [ref=e1977]:
+                      - link "Testers Talk" [ref=e1978]:
+                        - /url: /@testerstalk
+                    - generic [ref=e1979]:
+                      - generic [ref=e1980]: 27K views
+                      - generic [ref=e1981]: •7 years ago
+              - generic [ref=e1983]:
+                - link [ref=e1985] [cursor=pointer]:
+                  - /url: /watch?v=3kkXatC3k3E
+                - generic [ref=e1989] [cursor=pointer]:
+                  - heading "Selenium C# Page Object Model by Bakkappa N 56 minutes" [level=3] [ref=e1990]:
+                    - link "Selenium C# Page Object Model by Bakkappa N 56 minutes" [ref=e1991]:
+                      - /url: /watch?v=3kkXatC3k3E
+                      - text: Selenium C# Page Object Model by Bakkappa N
+                  - generic [ref=e1993]:
+                    - generic "Testers Talk" [ref=e1998]:
+                      - link "Testers Talk" [ref=e1999]:
+                        - /url: /@testerstalk
+                    - generic [ref=e2000]:
+                      - generic [ref=e2001]: 35K views
+                      - generic [ref=e2002]: •7 years ago
+            - button "Next" [ref=e2005] [cursor=pointer]
+        - generic [ref=e2014]:
+          - heading "Posts" [level=2] [ref=e2017]:
+            - link "Posts" [ref=e2020] [cursor=pointer]:
+              - /url: /channel/UCutQjK5N6zIT-vXqXa4WI0A/posts
+              - generic [ref=e2021]: Posts
+          - generic [ref=e2023]:
+            - generic [ref=e2026]:
+              - 'link "Testers Talk • 3 weeks ago Releasing video very soon! Stay tuned!!! #TestersTalk #Playwright #TestAutomation #Testing #QA #AI Like this post along with 9 other people tooltip 9 likes Dislike this post tooltip Share tooltip Comment tooltip" [ref=e2028] [cursor=pointer]':
+                - generic [ref=e2029]:
+                  - link [ref=e2031]:
+                    - /url: /@testerstalk
+                  - link "Testers Talk" [ref=e2034]:
+                    - /url: /@testerstalk
+                  - generic [ref=e2035]: •
+                  - link "3 weeks ago" [ref=e2037]:
+                    - /url: /post/Ugkx7N7kUPaXmI7_QU9IfZYn76uFGVQYUnhY
+                - generic [ref=e2038]:
+                  - generic [ref=e2040]:
+                    - text: Releasing video very soon! Stay tuned!!!
+                    - link "#TestersTalk" [ref=e2041]:
+                      - /url: /hashtag/testerstalk
+                    - link "#Playwright" [ref=e2042]:
+                      - /url: /hashtag/playwright
+                    - link "#TestAutomation" [ref=e2043]:
+                      - /url: /hashtag/testautomation
+                    - link "#Testing" [ref=e2044]:
+                      - /url: /hashtag/testing
+                    - link "#QA" [ref=e2045]:
+                      - /url: /hashtag/qa
+                    - link "#AI" [ref=e2046]:
+                      - /url: /hashtag/ai
+                  - generic [ref=e2047]:
+                    - group
+                - generic [ref=e2053]:
+                  - generic [ref=e2054]:
+                    - link "Like this post along with 9 other people" [ref=e2056]:
+                      - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252F&hl=en
+                    - tooltip "tooltip"
+                  - generic "9 likes" [ref=e2062]: "9"
+                  - generic [ref=e2063]:
+                    - link "Dislike this post" [ref=e2065]:
+                      - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252F&hl=en
+                    - tooltip "tooltip"
+                  - generic [ref=e2072]:
+                    - button "Share" [ref=e2074]
+                    - tooltip "tooltip"
+                  - generic [ref=e2081]:
+                    - link "Comment" [ref=e2083]:
+                      - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fpost%252FUgkx7N7kUPaXmI7_QU9IfZYn76uFGVQYUnhY&hl=en
+                    - tooltip "tooltip"
+              - 'link "Testers Talk • 2 months ago #Motivation #Career #Software #IT #Company #Growing #Learning #NewYear2025 #2025 #Goal #Mindset #Consistency #Change Like this post along with 8 other people tooltip 8 likes Dislike this post tooltip Share tooltip 1 comment tooltip" [ref=e2090] [cursor=pointer]':
+                - generic [ref=e2091]:
+                  - link [ref=e2093]:
+                    - /url: /@testerstalk
+                  - link "Testers Talk" [ref=e2096]:
+                    - /url: /@testerstalk
+                  - generic [ref=e2097]: •
+                  - link "2 months ago" [ref=e2099]:
+                    - /url: /post/Ugkxk5skoIfPyUeGsj_Oi5nG7z11gEM5tcHv
+                - generic [ref=e2100]:
+                  - generic [ref=e2102]:
+                    - link "#Motivation" [ref=e2103]:
+                      - /url: /hashtag/motivation
+                    - link "#Career" [ref=e2104]:
+                      - /url: /hashtag/career
+                    - link "#Software" [ref=e2105]:
+                      - /url: /hashtag/software
+                    - link "#IT" [ref=e2106]:
+                      - /url: /hashtag/it
+                    - link "#Company" [ref=e2107]:
+                      - /url: /hashtag/company
+                    - link "#Growing" [ref=e2108]:
+                      - /url: /hashtag/growing
+                    - link "#Learning" [ref=e2109]:
+                      - /url: /hashtag/learning
+                    - link "#NewYear2025" [ref=e2110]:
+                      - /url: /hashtag/newyear2025
+                    - link "#2025" [ref=e2111]:
+                      - /url: /hashtag/2025
+                    - link "#Goal" [ref=e2112]:
+                      - /url: /hashtag/goal
+                    - link "#Mindset" [ref=e2113]:
+                      - /url: /hashtag/mindset
+                    - link "#Consistency" [ref=e2114]:
+                      - /url: /hashtag/consistency
+                    - link "#Change" [ref=e2115]:
+                      - /url: /hashtag/change
+                  - generic [ref=e2116]:
+                    - group
+                - generic [ref=e2122]:
+                  - generic [ref=e2123]:
+                    - link "Like this post along with 8 other people" [ref=e2125]:
+                      - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252F&hl=en
+                    - tooltip "tooltip"
+                  - generic "8 likes" [ref=e2131]: "8"
+                  - generic [ref=e2132]:
+                    - link "Dislike this post" [ref=e2134]:
+                      - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252F&hl=en
+                    - tooltip "tooltip"
+                  - generic [ref=e2141]:
+                    - button "Share" [ref=e2143]
+                    - tooltip "tooltip"
+                  - generic [ref=e2150]:
+                    - link "1 comment" [ref=e2152]:
+                      - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fpost%252FUgkxk5skoIfPyUeGsj_Oi5nG7z11gEM5tcHv&hl=en
+                      - generic [ref=e2155]: "1"
+                    - tooltip "tooltip"
+              - link [ref=e2160] [cursor=pointer]:
+                - generic [ref=e2161]:
+                  - link [ref=e2163]:
+                    - /url: /@testerstalk
+                  - link "Testers Talk" [ref=e2166]:
+                    - /url: /@testerstalk
+                  - generic [ref=e2167]: •
+                  - link "6 months ago" [ref=e2169]:
+                    - /url: /post/UgkxHwnRMPlMJF8U-BXHjqH2yWfNtDkinJ8f
+                - generic [ref=e2170]:
+                  - generic [ref=e2172]:
+                    - text: "🚀 Learn FREE Playwright Web + API Automation & Mocking + CICD Tools + AI(Playwright MCP) From Scratch 👉 Playwright Playlist :"
+                    - link "https://www.youtube.com/watch?v=3Vk2m..." [ref=e2173]:
+                      - /url: /watch?v=3Vk2mlX1XYM&list=PLUeDIlio4THEXmQxNvKmdDxAVloGTHXMr&index=5
+                    - text: 🚀 Playwright JavaScript by Testers Talk
+                    - link "https://youtube.com/playlist?list=PLU..." [ref=e2174]:
+                      - /url: /playlist?list=PLUeDIlio4THFSOUcVo_Cfam8I_IO483mV
+                    - text: "🚀 Cypress by Testers Talk #"
+                    - link "https://youtube.com/playlist?list=PLU..." [ref=e2175]:
+                      - /url: /playlist?list=PLUeDIlio4THEbdE2jWyBBxkWqjk4JmHHq
+                    - text: 🚀 JavaScript by Testers Talk P
+                    - link "https://youtube.com/playlist?list=PLU..." [ref=e2176]:
+                      - /url: /playlist?list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB
+                    - text: 🚀 Postman by Testers Talk l
+                    - link "https://youtube.com/playlist?list=PLU..." [ref=e2177]:
+                      - /url: /playlist?list=PLUeDIlio4THGcgNP3_Ocb_I_l4ITai5QT
+                    - text: 🚀 Rest Assured by Testers Talk a
+                    - link "https://youtube.com/playlist?list=PLU..." [ref=e2178]:
+                      - /url: /playlist?list=PLUeDIlio4THGL7lQXQwxsV9re_i0U2b0Q
+                    - text: 🚀 API Testing by Testers Talk y
+                    - link "https://youtube.com/playlist?list=PLU..." [ref=e2179]:
+                      - /url: /playlist?list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5
+                    - text: 💥 Subscribe for Daily Updates r
+                    - link "https://www.youtube.com/@testerstalk?..." [ref=e2180]:
+                      - /url: https://www.youtube.com/@testerstalk?sub_confirmation=1
+                    - link "#Playwright" [ref=e2181]:
+                      - /url: /hashtag/playwright
+                    - link "#Web" [ref=e2182]:
+                      - /url: /hashtag/web
+                    - link "#API" [ref=e2183]:
+                      - /url: /hashtag/api
+                    - link "#UI" [ref=e2184]:
+                      - /url: /hashtag/ui
+                    - link "#PlaywrightMCP" [ref=e2185]:
+                      - /url: /hashtag/playwrightmcp
+                    - link "#MCPServer" [ref=e2186]:
+                      - /url: /hashtag/mcpserver
+                    - link "#Testing" [ref=e2187]:
+                      - /url: /hashtag/testing
+                    - link "#QA" [ref=e2188]:
+                      - /url: /hashtag/qa
+                    - link "#SDET" [ref=e2189]:
+                      - /url: /hashtag/sdet
+                    - link "#TestAutomation" [ref=e2190]:
+                      - /url: /hashtag/testautomation
+                    - link "#TestersTalk" [ref=e2191]:
+                      - /url: /hashtag/testerstalk
+                  - generic [ref=e2192]:
+                    - group
+                - generic [ref=e2198]:
+                  - generic [ref=e2199]:
+                    - link "Like this post along with 7 other people" [ref=e2201]:
+                      - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252F&hl=en
+                    - tooltip "tooltip"
+                  - generic "7 likes" [ref=e2207]: "7"
+                  - generic [ref=e2208]:
+                    - link "Dislike this post" [ref=e2210]:
+                      - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252F&hl=en
+                    - tooltip "tooltip"
+                  - generic [ref=e2217]:
+                    - button "Share" [ref=e2219]
+                    - tooltip "tooltip"
+                  - generic [ref=e2226]:
+                    - link "1 comment" [ref=e2228]:
+                      - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fpost%252FUgkxHwnRMPlMJF8U-BXHjqH2yWfNtDkinJ8f&hl=en
+                      - generic [ref=e2231]: "1"
+                    - tooltip "tooltip"
+              - link "Testers Talk • 6 months ago Playwright MCP with Banking Project is LIVE now! Don't miss out to check it. URL - https://www.youtube.com/watch?v=3Vk2m... Like this post along with 2 other people tooltip 2 likes Dislike this post tooltip Share tooltip Comment tooltip" [ref=e2236] [cursor=pointer]:
+                - generic [ref=e2237]:
+                  - link [ref=e2239]:
+                    - /url: /@testerstalk
+                  - link "Testers Talk" [ref=e2242]:
+                    - /url: /@testerstalk
+                  - generic [ref=e2243]: •
+                  - link "6 months ago" [ref=e2245]:
+                    - /url: /post/UgkxY7NRQD84mFy2NzDdbph1ExOapxB3JGCT
+                - generic [ref=e2246]:
+                  - generic [ref=e2248]:
+                    - text: Playwright MCP with Banking Project is LIVE now! Don't miss out to check it. URL -
+                    - link "https://www.youtube.com/watch?v=3Vk2m..." [ref=e2249]:
+                      - /url: /watch?v=3Vk2mlX1XYM&list=PLUeDIlio4THEXmQxNvKmdDxAVloGTHXMr&index=6
+                  - generic [ref=e2250]:
+                    - group
+                - generic [ref=e2256]:
+                  - generic [ref=e2257]:
+                    - link "Like this post along with 2 other people" [ref=e2259]:
+                      - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252F&hl=en
+                    - tooltip "tooltip"
+                  - generic "2 likes" [ref=e2265]: "2"
+                  - generic [ref=e2266]:
+                    - link "Dislike this post" [ref=e2268]:
+                      - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252F&hl=en
+                    - tooltip "tooltip"
+                  - generic [ref=e2275]:
+                    - button "Share" [ref=e2277]
+                    - tooltip "tooltip"
+                  - generic [ref=e2284]:
+                    - link "Comment" [ref=e2286]:
+                      - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fpost%252FUgkxY7NRQD84mFy2NzDdbph1ExOapxB3JGCT&hl=en
+                    - tooltip "tooltip"
+              - 'link "Testers Talk • 1 year ago 🔥🔥India Vs Pakistan, Who will win today''s match? #India #Pakistan #Cricket #ChampionsTrophy #2025 #UAE #Dubai 83 votes Vote now Like this post along with 4 other people tooltip 4 likes Dislike this post tooltip Share tooltip Comment tooltip" [ref=e2293] [cursor=pointer]':
+                - generic [ref=e2294]:
+                  - link [ref=e2296]:
+                    - /url: /@testerstalk
+                  - link "Testers Talk" [ref=e2299]:
+                    - /url: /@testerstalk
+                  - generic [ref=e2300]: •
+                  - link "1 year ago" [ref=e2302]:
+                    - /url: /post/UgkxFEnsgqDuvAYGwtYOoBY8SvPQUsUE5WtX
+                - generic [ref=e2303]:
+                  - generic [ref=e2305]:
+                    - text: 🔥🔥India Vs Pakistan, Who will win today's match?
+                    - link "#India" [ref=e2306]:
+                      - /url: /hashtag/india
+                    - link "#Pakistan" [ref=e2307]:
+                      - /url: /hashtag/pakistan
+                    - link "#Cricket" [ref=e2308]:
+                      - /url: /hashtag/cricket
+                    - link "#ChampionsTrophy" [ref=e2309]:
+                      - /url: /hashtag/championstrophy
+                    - link "#2025" [ref=e2310]:
+                      - /url: /hashtag/2025
+                    - link "#UAE" [ref=e2311]:
+                      - /url: /hashtag/uae
+                    - link "#Dubai" [ref=e2312]:
+                      - /url: /hashtag/dubai
+                  - generic [ref=e2313]:
+                    - generic [ref=e2314]: 83 votes
+                    - link "Vote now" [ref=e2318]:
+                      - /url: /post/UgkxFEnsgqDuvAYGwtYOoBY8SvPQUsUE5WtX
+                      - generic [ref=e2319]: Vote now
+                - generic [ref=e2325]:
+                  - generic [ref=e2326]:
+                    - link "Like this post along with 4 other people" [ref=e2328]:
+                      - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252F&hl=en
+                    - tooltip "tooltip"
+                  - generic "4 likes" [ref=e2334]: "4"
+                  - generic [ref=e2335]:
+                    - link "Dislike this post" [ref=e2337]:
+                      - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252F&hl=en
+                    - tooltip "tooltip"
+                  - generic [ref=e2344]:
+                    - button "Share" [ref=e2346]
+                    - tooltip "tooltip"
+                  - generic [ref=e2353]:
+                    - link "Comment" [ref=e2355]:
+                      - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fpost%252FUgkxFEnsgqDuvAYGwtYOoBY8SvPQUsUE5WtX&hl=en
+                    - tooltip "tooltip"
+              - link "Testers Talk • 1 year ago Like this post along with 6 other people tooltip 6 likes Dislike this post tooltip Share tooltip 1 comment tooltip" [ref=e2362] [cursor=pointer]:
+                - generic [ref=e2363]:
+                  - link [ref=e2365]:
+                    - /url: /@testerstalk
+                  - link "Testers Talk" [ref=e2368]:
+                    - /url: /@testerstalk
+                  - generic [ref=e2369]: •
+                  - link "1 year ago" [ref=e2371]:
+                    - /url: /post/UgkxePyi2uHKKubq9Qu-Veh31Ws3KKUzaS8F
+                - generic [ref=e2373]:
+                  - group
+                - generic [ref=e2379]:
+                  - generic [ref=e2380]:
+                    - link "Like this post along with 6 other people" [ref=e2382]:
+                      - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252F&hl=en
+                    - tooltip "tooltip"
+                  - generic "6 likes" [ref=e2388]: "6"
+                  - generic [ref=e2389]:
+                    - link "Dislike this post" [ref=e2391]:
+                      - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252F&hl=en
+                    - tooltip "tooltip"
+                  - generic [ref=e2398]:
+                    - button "Share" [ref=e2400]
+                    - tooltip "tooltip"
+                  - generic [ref=e2407]:
+                    - link "1 comment" [ref=e2409]:
+                      - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fpost%252FUgkxePyi2uHKKubq9Qu-Veh31Ws3KKUzaS8F&hl=en
+                      - generic [ref=e2412]: "1"
+                    - tooltip "tooltip"
+            - button "Next" [ref=e2418] [cursor=pointer]
+    - text: •
+```

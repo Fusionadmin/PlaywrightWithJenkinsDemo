@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 1
+      "actualWorkers": 3
     },
     "preserveOutput": "always",
     "projects": [
@@ -20,7 +20,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 1
+          "actualWorkers": 3
         },
         "id": "Google Chrome",
         "name": "Google Chrome",
@@ -76,15 +76,17 @@
   },
   "suites": [
     {
-      "title": "Chapter06\\12_Mock_From_HAR_File.spec.ts",
-      "file": "Chapter06/12_Mock_From_HAR_File.spec.ts",
+      "title": "Chapter01\\04_Codegen_Test.spec.ts",
+      "file": "Chapter01/04_Codegen_Test.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Record the HAR file",
+          "title": "Codegen Testcase",
           "ok": true,
-          "tags": [],
+          "tags": [
+            "PlaywrightWithJenkins"
+          ],
           "tests": [
             {
               "timeout": 120000,
@@ -97,23 +99,23 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 950,
+                  "duration": 15343,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-03-11T21:03:47.337Z",
+                  "startTime": "2026-03-18T17:49:29.980Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\PWTypeScriptCourse\\test-results\\Chapter06-12_Mock_From_HAR_File-Record-the-HAR-file-Google-Chrome\\test-finished-1.png"
+                      "path": "C:\\PWTypeScriptCourse\\test-results\\Chapter01-04_Codegen_Test-Codegen-Testcase-Google-Chrome\\test-finished-1.png"
                     },
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "C:\\PWTypeScriptCourse\\test-results\\Chapter06-12_Mock_From_HAR_File-Record-the-HAR-file-Google-Chrome\\trace.zip"
+                      "path": "C:\\PWTypeScriptCourse\\test-results\\Chapter01-04_Codegen_Test-Codegen-Testcase-Google-Chrome\\trace.zip"
                     }
                   ]
                 }
@@ -121,21 +123,175 @@
               "status": "expected"
             }
           ],
-          "id": "a06392a95b78cb5843cb-7612da8657e50fb5b30e",
-          "file": "Chapter06/12_Mock_From_HAR_File.spec.ts",
-          "line": 5,
-          "column": 1
+          "id": "862dabe61a597ca2ac1a-d990c8ff05b61c1c4832",
+          "file": "Chapter01/04_Codegen_Test.spec.ts",
+          "line": 6,
+          "column": 5
+        },
+        {
+          "title": "Test 2 will fail",
+          "ok": false,
+          "tags": [
+            "PlaywrightWithJenkins"
+          ],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 9833,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mfalse\u001b[39m\nReceived: \u001b[31mtrue\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mfalse\u001b[39m\nReceived: \u001b[31mtrue\u001b[39m\n    at C:\\PWTypeScriptCourse\\tests\\Chapter01\\04_Codegen_Test.spec.ts:20:16",
+                    "location": {
+                      "file": "C:\\PWTypeScriptCourse\\tests\\Chapter01\\04_Codegen_Test.spec.ts",
+                      "column": 16,
+                      "line": 20
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 18 |\u001b[39m test(\u001b[32m'Test 2 will fail'\u001b[39m\u001b[33m,\u001b[39m { tag\u001b[33m:\u001b[39m [\u001b[32m'@PlaywrightWithJenkins'\u001b[39m] }\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n \u001b[90m 19 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://www.youtube.com/@testerstalk'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 20 |\u001b[39m   expect(\u001b[36mtrue\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mfalse\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 21 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\PWTypeScriptCourse\\tests\\Chapter01\\04_Codegen_Test.spec.ts",
+                        "column": 16,
+                        "line": 20
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mfalse\u001b[39m\nReceived: \u001b[31mtrue\u001b[39m\n\n\u001b[0m \u001b[90m 18 |\u001b[39m test(\u001b[32m'Test 2 will fail'\u001b[39m\u001b[33m,\u001b[39m { tag\u001b[33m:\u001b[39m [\u001b[32m'@PlaywrightWithJenkins'\u001b[39m] }\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n \u001b[90m 19 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://www.youtube.com/@testerstalk'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 20 |\u001b[39m   expect(\u001b[36mtrue\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mfalse\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 21 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\PWTypeScriptCourse\\tests\\Chapter01\\04_Codegen_Test.spec.ts:20:16\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-03-18T17:49:29.992Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\PWTypeScriptCourse\\test-results\\Chapter01-04_Codegen_Test-Test-2-will-fail-Google-Chrome\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\PWTypeScriptCourse\\test-results\\Chapter01-04_Codegen_Test-Test-2-will-fail-Google-Chrome\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\PWTypeScriptCourse\\test-results\\Chapter01-04_Codegen_Test-Test-2-will-fail-Google-Chrome\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\PWTypeScriptCourse\\tests\\Chapter01\\04_Codegen_Test.spec.ts",
+                    "column": 16,
+                    "line": 20
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "862dabe61a597ca2ac1a-b8e1a63c205d89583e12",
+          "file": "Chapter01/04_Codegen_Test.spec.ts",
+          "line": 18,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter06\\09_DELETE_API_Request.spec.ts",
+      "file": "Chapter06/09_DELETE_API_Request.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Create DELETE API Request in Playwright",
+          "ok": true,
+          "tags": [
+            "PlaywrightWithJenkins"
+          ],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 881,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "------------------------------------------------------------\n"
+                    },
+                    {
+                      "text": "Response Body from POST API: {\n  \"bookingid\": 4717,\n  \"booking\": {\n    \"firstname\": \"Justine\",\n    \"lastname\": \"Bartell\",\n    \"totalprice\": 1817,\n    \"depositpaid\": true,\n    \"bookingdates\": {\n      \"checkin\": \"2025-01-01\",\n      \"checkout\": \"2025-01-05\"\n    },\n    \"additionalneeds\": \"Breakfast\"\n  }\n}\n"
+                    },
+                    {
+                      "text": "Booking ID : 4717\n"
+                    },
+                    {
+                      "text": "Response Body from Query GET API: {\n  \"firstname\": \"Justine\",\n  \"lastname\": \"Bartell\",\n  \"totalprice\": 1817,\n  \"depositpaid\": true,\n  \"bookingdates\": {\n    \"checkin\": \"2025-01-01\",\n    \"checkout\": \"2025-01-05\"\n  },\n  \"additionalneeds\": \"Breakfast\"\n}\n"
+                    },
+                    {
+                      "text": "------------------------------------------------------------\n"
+                    },
+                    {
+                      "text": "Token : 6ee6c92d607916d\n"
+                    },
+                    {
+                      "text": "------------------------------------------------------------\n"
+                    },
+                    {
+                      "text": "UPDATE API Response after update: {\n  \"firstname\": \"Eugene\",\n  \"lastname\": \"Bartell\",\n  \"totalprice\": 1817,\n  \"depositpaid\": true,\n  \"bookingdates\": {\n    \"checkin\": \"2025-01-01\",\n    \"checkout\": \"2025-01-05\"\n  },\n  \"additionalneeds\": \"super bowls\"\n}\n"
+                    },
+                    {
+                      "text": "DELETE API Response body after delete: Created\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-03-18T17:49:31.545Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\PWTypeScriptCourse\\test-results\\Chapter06-09_DELETE_API_Re-71525-E-API-Request-in-Playwright-Google-Chrome\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6271a63283d771364880-47c9a14c352293f1f478",
+          "file": "Chapter06/09_DELETE_API_Request.spec.ts",
+          "line": 17,
+          "column": 5
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-03-11T21:03:45.837Z",
-    "duration": 2990.2,
-    "expected": 1,
+    "startTime": "2026-03-18T17:49:27.184Z",
+    "duration": 20016.07,
+    "expected": 2,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 1,
     "flaky": 0
   }
 }

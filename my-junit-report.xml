@@ -1,11 +1,103 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="2.9901999999999997">
-<testsuite name="Chapter06\12_Mock_From_HAR_File.spec.ts" timestamp="2026-03-11T21:03:45.867Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="0.95" errors="0">
-<testcase name="Record the HAR file" classname="Chapter06\12_Mock_From_HAR_File.spec.ts" time="0.95">
+<testsuites id="" name="" tests="3" failures="1" skipped="0" errors="0" time="20.01607">
+<testsuite name="Chapter01\04_Codegen_Test.spec.ts" timestamp="2026-03-18T17:49:27.996Z" hostname="Google Chrome" tests="2" failures="1" skipped="0" time="25.176" errors="0">
+<testcase name="Codegen Testcase" classname="Chapter01\04_Codegen_Test.spec.ts" time="15.343">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|test-results\Chapter06-12_Mock_From_HAR_File-Record-the-HAR-file-Google-Chrome\test-finished-1.png]]
+[[ATTACHMENT|test-results\Chapter01-04_Codegen_Test-Codegen-Testcase-Google-Chrome\test-finished-1.png]]
 
-[[ATTACHMENT|test-results\Chapter06-12_Mock_From_HAR_File-Record-the-HAR-file-Google-Chrome\trace.zip]]
+[[ATTACHMENT|test-results\Chapter01-04_Codegen_Test-Codegen-Testcase-Google-Chrome\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test 2 will fail" classname="Chapter01\04_Codegen_Test.spec.ts" time="9.833">
+<failure message="04_Codegen_Test.spec.ts:18:5 Test 2 will fail" type="FAILURE">
+<![CDATA[  [Google Chrome] › Chapter01\04_Codegen_Test.spec.ts:18:5 › Test 2 will fail @PlaywrightWithJenkins 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: false
+    Received: true
+
+      18 | test('Test 2 will fail', { tag: ['@PlaywrightWithJenkins'] }, async ({ page }) => {
+      19 |   await page.goto('https://www.youtube.com/@testerstalk');
+    > 20 |   expect(true).toBe(false);
+         |                ^
+      21 | });
+        at C:\PWTypeScriptCourse\tests\Chapter01\04_Codegen_Test.spec.ts:20:16
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Chapter01-04_Codegen_Test-Test-2-will-fail-Google-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Chapter01-04_Codegen_Test-Test-2-will-fail-Google-Chrome\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\Chapter01-04_Codegen_Test-Test-2-will-fail-Google-Chrome\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\Chapter01-04_Codegen_Test-Test-2-will-fail-Google-Chrome\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Chapter01-04_Codegen_Test-Test-2-will-fail-Google-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Chapter01-04_Codegen_Test-Test-2-will-fail-Google-Chrome\error-context.md]]
+
+[[ATTACHMENT|test-results\Chapter01-04_Codegen_Test-Test-2-will-fail-Google-Chrome\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Chapter06\09_DELETE_API_Request.spec.ts" timestamp="2026-03-18T17:49:27.996Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="0.881" errors="0">
+<testcase name="Create DELETE API Request in Playwright" classname="Chapter06\09_DELETE_API_Request.spec.ts" time="0.881">
+<system-out>
+<![CDATA[------------------------------------------------------------
+Response Body from POST API: {
+  "bookingid": 4717,
+  "booking": {
+    "firstname": "Justine",
+    "lastname": "Bartell",
+    "totalprice": 1817,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-01",
+      "checkout": "2025-01-05"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}
+Booking ID : 4717
+Response Body from Query GET API: {
+  "firstname": "Justine",
+  "lastname": "Bartell",
+  "totalprice": 1817,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-01-01",
+    "checkout": "2025-01-05"
+  },
+  "additionalneeds": "Breakfast"
+}
+------------------------------------------------------------
+Token : 6ee6c92d607916d
+------------------------------------------------------------
+UPDATE API Response after update: {
+  "firstname": "Eugene",
+  "lastname": "Bartell",
+  "totalprice": 1817,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-01-01",
+    "checkout": "2025-01-05"
+  },
+  "additionalneeds": "super bowls"
+}
+DELETE API Response body after delete: Created
+
+[[ATTACHMENT|test-results\Chapter06-09_DELETE_API_Re-71525-E-API-Request-in-Playwright-Google-Chrome\trace.zip]]
 ]]>
 </system-out>
 </testcase>
