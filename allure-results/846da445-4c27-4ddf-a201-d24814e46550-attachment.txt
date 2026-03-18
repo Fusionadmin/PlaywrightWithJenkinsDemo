@@ -1,0 +1,15 @@
+------------------------------------------------------------
+Response Body : {
+  "bookingid": 5070,
+  "booking": {
+    "firstname": "Teresa",
+    "lastname": "Orn",
+    "totalprice": 4391,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-01",
+      "checkout": "2025-01-05"
+    },
+    "additionalneeds": "Dinner"
+  }
+}

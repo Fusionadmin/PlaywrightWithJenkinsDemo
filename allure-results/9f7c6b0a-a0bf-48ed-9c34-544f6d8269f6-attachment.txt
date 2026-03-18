@@ -1,0 +1,16 @@
+Response Body : {"bookingid":4708,"booking":{"firstname":"Eugene","lastname":"Ray","totalprice":1500,"depositpaid":true,"bookingdates":{"checkin":"2024-01-01","checkout":"2024-01-05"},"additionalneeds":"Dinner"}}
+------------------------------------------------------------
+Response Body : {
+  "bookingid": 4708,
+  "booking": {
+    "firstname": "Eugene",
+    "lastname": "Ray",
+    "totalprice": 1500,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2024-01-01",
+      "checkout": "2024-01-05"
+    },
+    "additionalneeds": "Dinner"
+  }
+}

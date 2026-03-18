@@ -1,0 +1,16 @@
+------------------------------------------------------------
+Response Body : {
+  "bookingid": 2870,
+  "booking": {
+    "firstname": "Colt",
+    "lastname": "Pacocha",
+    "totalprice": 4763,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-01",
+      "checkout": "2025-01-05"
+    },
+    "additionalneeds": "Lunch"
+  }
+}
+Booking ID : 2870

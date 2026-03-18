@@ -1,0 +1,27 @@
+------------------------------------------------------------
+Response Body : {
+  "bookingid": 2584,
+  "booking": {
+    "firstname": "Joy",
+    "lastname": "Miller",
+    "totalprice": 1528,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-01",
+      "checkout": "2025-01-05"
+    },
+    "additionalneeds": "None"
+  }
+}
+Booking ID : 2584
+Response Body : {
+  "firstname": "Joy",
+  "lastname": "Miller",
+  "totalprice": 1528,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-01-01",
+    "checkout": "2025-01-05"
+  },
+  "additionalneeds": "None"
+}

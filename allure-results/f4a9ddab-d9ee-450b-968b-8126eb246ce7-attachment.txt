@@ -1,0 +1,118 @@
+Response Body : {"bookingid":1212,"booking":{"firstname":"Eugene","lastname":"Ray","totalprice":1500,"depositpaid":true,"bookingdates":{"checkin":"2024-01-01","checkout":"2024-01-05"},"additionalneeds":"Dinner"}}
+------------------------------------------------------------
+Response Body : {
+  "bookingid": 1212,
+  "booking": {
+    "firstname": "Eugene",
+    "lastname": "Ray",
+    "totalprice": 1500,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2024-01-01",
+      "checkout": "2024-01-05"
+    },
+    "additionalneeds": "Dinner"
+  }
+}
+------------------------------------------------------------
+Response Body : {
+  "_request": {
+    "_type": "APIRequestContext",
+    "_guid": "request-context@8b8ae1a1883e5985ba9e369e8f0d98cf"
+  },
+  "_initializer": {
+    "fetchUid": "4c30709f0a703e0b6eeae2307e20f811",
+    "url": "https://restful-booker.herokuapp.com/booking",
+    "status": 200,
+    "statusText": "OK",
+    "headers": [
+      {
+        "name": "Content-Length",
+        "value": "196"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "Date",
+        "value": "Tue, 10 Mar 2026 00:22:39 GMT"
+      },
+      {
+        "name": "Etag",
+        "value": "W/\"c4-TYt6xd7HfXiGGfY4D7fmZHV6+ms\""
+      },
+      {
+        "name": "Nel",
+        "value": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}"
+      },
+      {
+        "name": "Report-To",
+        "value": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=uNibuqR584Nm84oV%2Bm4R%2FY9%2FvpOsuciT%2BYgh2PjoBks%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1773102159\"}],\"max_age\":3600}"
+      },
+      {
+        "name": "Reporting-Endpoints",
+        "value": "heroku-nel=\"https://nel.heroku.com/reports?s=uNibuqR584Nm84oV%2Bm4R%2FY9%2FvpOsuciT%2BYgh2PjoBks%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1773102159\""
+      },
+      {
+        "name": "Server",
+        "value": "Heroku"
+      },
+      {
+        "name": "Via",
+        "value": "1.1 heroku-router"
+      },
+      {
+        "name": "X-Powered-By",
+        "value": "Express"
+      }
+    ]
+  },
+  "_headers": {
+    "_headersMap": {
+      "_map": {}
+    },
+    "_headersArray": [
+      {
+        "name": "Content-Length",
+        "value": "196"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "Date",
+        "value": "Tue, 10 Mar 2026 00:22:39 GMT"
+      },
+      {
+        "name": "Etag",
+        "value": "W/\"c4-TYt6xd7HfXiGGfY4D7fmZHV6+ms\""
+      },
+      {
+        "name": "Nel",
+        "value": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}"
+      },
+      {
+        "name": "Report-To",
+        "value": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=uNibuqR584Nm84oV%2Bm4R%2FY9%2FvpOsuciT%2BYgh2PjoBks%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1773102159\"}],\"max_age\":3600}"
+      },
+      {
+        "name": "Reporting-Endpoints",
+        "value": "heroku-nel=\"https://nel.heroku.com/reports?s=uNibuqR584Nm84oV%2Bm4R%2FY9%2FvpOsuciT%2BYgh2PjoBks%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1773102159\""
+      },
+      {
+        "name": "Server",
+        "value": "Heroku"
+      },
+      {
+        "name": "Via",
+        "value": "1.1 heroku-router"
+      },
+      {
+        "name": "X-Powered-By",
+        "value": "Express"
+      }
+    ]
+  }
+}

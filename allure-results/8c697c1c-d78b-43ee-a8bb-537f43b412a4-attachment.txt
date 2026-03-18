@@ -1,0 +1,16 @@
+Response Body : {"bookingid":785,"booking":{"firstname":"Tillman","lastname":"Franey","totalprice":2027,"depositpaid":true,"bookingdates":{"checkin":"2024-01-01","checkout":"2024-01-05"},"additionalneeds":"Breakfast"}}
+------------------------------------------------------------
+Response Body : {
+  "bookingid": 785,
+  "booking": {
+    "firstname": "Tillman",
+    "lastname": "Franey",
+    "totalprice": 2027,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2024-01-01",
+      "checkout": "2024-01-05"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}

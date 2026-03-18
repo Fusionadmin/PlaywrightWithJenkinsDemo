@@ -1,0 +1,27 @@
+------------------------------------------------------------
+Response Body from POST API: {
+  "bookingid": 3228,
+  "booking": {
+    "firstname": "Dominic",
+    "lastname": "Bashirian",
+    "totalprice": 3356,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-01",
+      "checkout": "2025-01-05"
+    },
+    "additionalneeds": "Lunch"
+  }
+}
+Booking ID : 3228
+Response Body from GET API: {
+  "firstname": "Dominic",
+  "lastname": "Bashirian",
+  "totalprice": 3356,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-01-01",
+    "checkout": "2025-01-05"
+  },
+  "additionalneeds": "Lunch"
+}

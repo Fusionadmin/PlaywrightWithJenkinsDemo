@@ -1,0 +1,16 @@
+------------------------------------------------------------
+Response Body : {
+  "bookingid": 1218,
+  "booking": {
+    "firstname": "Nils",
+    "lastname": "Wehner",
+    "totalprice": 2841,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-01",
+      "checkout": "2025-01-05"
+    },
+    "additionalneeds": "Dinner"
+  }
+}
+Booking ID : 1218

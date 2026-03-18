@@ -1,0 +1,41 @@
+------------------------------------------------------------
+Response Body from POST API: {
+  "bookingid": 115,
+  "booking": {
+    "firstname": "Josephine",
+    "lastname": "Anderson",
+    "totalprice": 2850,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-01",
+      "checkout": "2025-01-05"
+    },
+    "additionalneeds": "Lunch"
+  }
+}
+Booking ID : 115
+Response Body from Query GET API: {
+  "firstname": "Josephine",
+  "lastname": "Anderson",
+  "totalprice": 2850,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-01-01",
+    "checkout": "2025-01-05"
+  },
+  "additionalneeds": "Lunch"
+}
+------------------------------------------------------------
+Token : 75095cb264b5302
+------------------------------------------------------------
+PUT API Response after update: {
+  "firstname": "Eugene",
+  "lastname": "Ray C#",
+  "totalprice": 111,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2026-01-01",
+    "checkout": "2026-01-05"
+  },
+  "additionalneeds": "super bowls"
+}

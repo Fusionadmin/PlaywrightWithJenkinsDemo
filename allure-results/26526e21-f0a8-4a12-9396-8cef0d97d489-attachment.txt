@@ -1,0 +1,6 @@
+Global before is running...
+Tests are running in dev env.
+Skill : API Testing by Testers Talk
+Skill : Rest Assured by Testers Talk
+Skill : Postman by Testers Talk
+Global afterEach is running...

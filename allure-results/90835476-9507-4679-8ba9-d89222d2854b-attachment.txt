@@ -1,0 +1,39 @@
+------------------------------------------------------------
+Response Body from POST API: {
+  "bookingid": 3347,
+  "booking": {
+    "firstname": "Noah",
+    "lastname": "Muller-Connelly",
+    "totalprice": 312,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-01",
+      "checkout": "2025-01-05"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}
+Booking ID : 3347
+Response Body from Query GET API: {
+  "firstname": "Noah",
+  "lastname": "Muller-Connelly",
+  "totalprice": 312,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-01-01",
+    "checkout": "2025-01-05"
+  },
+  "additionalneeds": "Breakfast"
+}
+Token : ee47da181161a4f
+Response Body from PUT API: {
+  "firstname": "Eugene",
+  "lastname": "Ray C#",
+  "totalprice": 111,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2026-01-01",
+    "checkout": "2026-01-05"
+  },
+  "additionalneeds": "super bowls"
+}

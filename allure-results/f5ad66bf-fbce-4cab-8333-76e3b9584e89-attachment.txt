@@ -1,0 +1,42 @@
+------------------------------------------------------------
+Response Body from POST API: {
+  "bookingid": 4380,
+  "booking": {
+    "firstname": "Theo",
+    "lastname": "Murazik",
+    "totalprice": 2446,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-01",
+      "checkout": "2025-01-05"
+    },
+    "additionalneeds": "Lunch"
+  }
+}
+Booking ID : 4380
+Response Body from Query GET API: {
+  "firstname": "Theo",
+  "lastname": "Murazik",
+  "totalprice": 2446,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-01-01",
+    "checkout": "2025-01-05"
+  },
+  "additionalneeds": "Lunch"
+}
+------------------------------------------------------------
+Token : 6f8144611e9a9a1
+------------------------------------------------------------
+UPDATE API Response after update: {
+  "firstname": "Eugene",
+  "lastname": "Murazik",
+  "totalprice": 2446,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-01-01",
+    "checkout": "2025-01-05"
+  },
+  "additionalneeds": "super bowls"
+}
+DELETE API Response body after delete: Created

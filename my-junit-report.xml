@@ -1,0 +1,13 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="2.9901999999999997">
+<testsuite name="Chapter06\12_Mock_From_HAR_File.spec.ts" timestamp="2026-03-11T21:03:45.867Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="0.95" errors="0">
+<testcase name="Record the HAR file" classname="Chapter06\12_Mock_From_HAR_File.spec.ts" time="0.95">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Chapter06-12_Mock_From_HAR_File-Record-the-HAR-file-Google-Chrome\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\Chapter06-12_Mock_From_HAR_File-Record-the-HAR-file-Google-Chrome\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

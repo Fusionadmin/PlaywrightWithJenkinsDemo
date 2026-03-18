@@ -1,0 +1,7 @@
+-----------------------------
+Third loop - Repository Link Text: PlaywrightTutorialFullCourse
+Third loop - Repository Link Text: PostmanCollectionsByTestersTalk
+Third loop - Repository Link Text: PlaywrightAPITestingTutorial
+Third loop - Repository Link Text: RestAssuredAPITestingFramework
+Third loop - Repository Link Text: PlaywrightTypeScriptTutorialFullCourse
+Third loop - Repository Link Text: CypressTutorialFullCourse

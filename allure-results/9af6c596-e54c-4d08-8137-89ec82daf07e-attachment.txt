@@ -1,0 +1,117 @@
+------------------------------------------------------------
+Response Body : {
+  "bookingid": 4768,
+  "booking": {
+    "firstname": "Mercedes",
+    "lastname": "Satterfield",
+    "totalprice": 4305,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-01",
+      "checkout": "2025-01-05"
+    },
+    "additionalneeds": "None"
+  }
+}
+Booking ID : 4768
+Response Body : {
+  "_request": {
+    "_type": "APIRequestContext",
+    "_guid": "request-context@595e5a94d12d6e9f30c98360cf4df920"
+  },
+  "_initializer": {
+    "fetchUid": "652e63383029e7e417c555aa093ea7c1",
+    "url": "https://restful-booker.herokuapp.com/booking/4768",
+    "status": 200,
+    "statusText": "OK",
+    "headers": [
+      {
+        "name": "Content-Length",
+        "value": "175"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "Date",
+        "value": "Tue, 10 Mar 2026 19:00:02 GMT"
+      },
+      {
+        "name": "Etag",
+        "value": "W/\"af-OVkavz6p5PyBlDvpAqxhklAB9q0\""
+      },
+      {
+        "name": "Nel",
+        "value": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}"
+      },
+      {
+        "name": "Report-To",
+        "value": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=JNHoatXSIW%2BVXu1CEXFsA7J%2F43%2BXpHvBZi80fLx%2B8a4%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1773169202\"}],\"max_age\":3600}"
+      },
+      {
+        "name": "Reporting-Endpoints",
+        "value": "heroku-nel=\"https://nel.heroku.com/reports?s=JNHoatXSIW%2BVXu1CEXFsA7J%2F43%2BXpHvBZi80fLx%2B8a4%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1773169202\""
+      },
+      {
+        "name": "Server",
+        "value": "Heroku"
+      },
+      {
+        "name": "Via",
+        "value": "1.1 heroku-router"
+      },
+      {
+        "name": "X-Powered-By",
+        "value": "Express"
+      }
+    ]
+  },
+  "_headers": {
+    "_headersMap": {
+      "_map": {}
+    },
+    "_headersArray": [
+      {
+        "name": "Content-Length",
+        "value": "175"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "Date",
+        "value": "Tue, 10 Mar 2026 19:00:02 GMT"
+      },
+      {
+        "name": "Etag",
+        "value": "W/\"af-OVkavz6p5PyBlDvpAqxhklAB9q0\""
+      },
+      {
+        "name": "Nel",
+        "value": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}"
+      },
+      {
+        "name": "Report-To",
+        "value": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=JNHoatXSIW%2BVXu1CEXFsA7J%2F43%2BXpHvBZi80fLx%2B8a4%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1773169202\"}],\"max_age\":3600}"
+      },
+      {
+        "name": "Reporting-Endpoints",
+        "value": "heroku-nel=\"https://nel.heroku.com/reports?s=JNHoatXSIW%2BVXu1CEXFsA7J%2F43%2BXpHvBZi80fLx%2B8a4%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1773169202\""
+      },
+      {
+        "name": "Server",
+        "value": "Heroku"
+      },
+      {
+        "name": "Via",
+        "value": "1.1 heroku-router"
+      },
+      {
+        "name": "X-Powered-By",
+        "value": "Express"
+      }
+    ]
+  }
+}

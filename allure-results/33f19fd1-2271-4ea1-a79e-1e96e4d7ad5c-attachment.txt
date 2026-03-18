@@ -1,0 +1,21 @@
+------------------------------------------------------------
+Response Body from POST API: {
+  "bookingid": 1508,
+  "booking": {
+    "firstname": "Ola",
+    "lastname": "Wisoky",
+    "totalprice": 4307,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-01",
+      "checkout": "2025-01-05"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}
+Booking ID : 1508
+Response Body from GET API: [
+  {
+    "bookingid": 1508
+  }
+]
